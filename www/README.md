@@ -1,0 +1,34 @@
+# Mezz CMS para Akiled
+
+### ¿Qué es Mezz CMS - Akiled?
+Mezz CMS - Akiled es una plantilla (*template*) para BrainCMS que se usa junto con **Akiled Emulator**. <br>
+Es un reemplazo para aquellos que quieren una opción diferente a la plantilla Slopt.
+
+### ¿Que hay de nuevo?
+* Diseño limpio
+* Noticias separadas por fecha del año.
+* Página de fotos
+* Página de Habitaciones
+* Página de Sítios de Fans
+* Página del Equipo
+* Página de Clasificación
+* Tienda de venta de VIP, lotería y placas
+* Preguntas frecuentes (FAQ)
+* Organización del HK
+* Eliminando sistemas inútiles de HK
+* Sistemas de Fansite incluidos en HK
+* Sistema de información de índice incluido en HK
+* Sistema de Reportes
+* Sistema simple de RCON
+
+Clic <a href="https://imgur.com/a/ut1BSN8" target="_blank">aquí</a> para ver las imágenes de CMS
+
+### Créditos para:
+
+* Codificando el CMS para Akiled - <a href="https://github.com/iKaioC">Kaio (*DevHabbos*)</a>
+* Diseño Mezz CMS - <a href="https://github.com/yilmazev">Yilmaz</a>
+* Emulador Akiled, correcciones y otros - <a href="https://github.com/Dark25">Lúcifer</a>
+
+### Discord Recursos Holos:
+
+* <a href="https://discord.gg/5wBCvuB9d8">https://discord.gg/5wBCvuB9d8</a>

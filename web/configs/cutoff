@@ -1,0 +1,153 @@
+server {
+	# NEVER ALLOW PUBLIC ACCESS TO THIS SERVER !!!
+		# Instead, create projects using WinNMP Manager, and allow public access only to those projects!
+		# How to allow access from LAN and Internet to your local project:
+		# http://WinNMP.wtriple.com/howtos.php#How-to-allow-access-from-LAN-and-Internet-to-your-local-project
+
+		listen		80;		# Do Not Change ! Security Risk !
+		#listen		[::1]:80	ipv6only=on;		# Do Not Change ! Security Risk !
+		server_name	localhost;				# Do Not Change ! Security Risk !
+
+		# This directive is modified automatically by WinNMP.exe for portability.
+		root		"/usr/share/nginx/html";
+		autoindex on;
+		
+		allow		127.0.0.1;	# Do Not Change ! Security Risk !
+		allow		::1;		# Do Not Change ! Security Risk !
+		deny		all;		# Do Not Change ! Security Risk !
+
+		## deny access to .htaccess files, if Apache's document root concurs with nginx's one
+		location ~ /\.ht {
+			deny  all;
+		}
+
+		location = /favicon.ico {
+				log_not_found off; 
+		}
+		location = /robots.txt {
+				log_not_found off; 
+		}
+
+
+		## Tools are now served from include/tools/
+		location ~ ^/tools/.*\.php$ {					
+			root "/usr/share/nginx/include";
+			#try_files $uri =404; 
+			include snippets/fastcgi-php.conf;
+			fastcgi_pass 127.0.0.1:9000;
+			allow		127.0.0.1;		# Do Not Change ! Security Risk !
+			allow		::1;			# Do Not Change ! Security Risk !
+			deny		all;			# Do Not Change ! Security Risk !
+		}
+		location ~ ^/tools/ {
+			root "/usr/share/nginx/include";
+			allow		127.0.0.1;		# Do Not Change ! Security Risk !
+			allow		::1;			# Do Not Change ! Security Risk !
+			deny		all;			# Do Not Change ! Security Risk !
+		}
+
+
+		## How to add phpMyAdmin 
+		## Copy phpMyAdmin files to /usr/share/nginx/include/phpMyAdmin then uncomment:
+
+		#location ~ ^/phpMyAdmin/.*\.php$ {
+		#	root "/usr/share/nginx/include";
+		#	try_files $uri =404; 
+		#	include         nginx.fastcgi.conf;
+		#	fastcgi_pass    php_farm;
+		#	allow           127.0.0.1;  
+		#	allow           ::1;
+		#	deny            all;
+		#}       
+		#location ~ ^/phpMyAdmin/ {
+		#	root "/usr/share/nginx/include";
+		#}
+
+		## Notice that the root directive lacks /phpMyAdmin because Nginx adds the URL path /phpMyAdmin to the root path, so the resulting directory is /usr/share/nginx/include/phpMyAdmin
+		
+
+		## PHP for localhost ##
+		#######################
+
+		location ~ \.php$ {
+			#try_files $uri =404; 
+			include snippets/fastcgi-php.conf;
+			fastcgi_pass 127.0.0.1:9000;
+			allow		127.0.0.1;		# Do Not Change ! Security Risk !
+			allow		::1;			# Do Not Change ! Security Risk !
+			deny		all;			# Do Not Change ! Security Risk !
+	        }
+	 
+ location / {
+	rewrite ^/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=$1;
+    rewrite ^/news/edit/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editnews&news=$1;
+    rewrite ^/publics/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=publics&delete=$1;
+    rewrite ^/news/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=news&delete=$1;
+    rewrite ^/bans/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=bans&delete=$1;
+    rewrite ^/catalogme/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=catalogme&delete=$1;
+    rewrite ^/report/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=report&delete=$1;
+    rewrite ^/badge/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=shop&delete=$1;
+    rewrite ^/gebruiker/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=gebruiker&user=$1;
+    rewrite ^/zoekgebruiker/([a-zA-Z0-9_-]+)(|/)$ /zoekgebruiker.php?user=$1;
+    rewrite ^/gebrank/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=gebrank&user=$1;
+    rewrite ^/giveuseroftheweek/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=giveuseroftheweek&user=$1;
+    rewrite ^/badge/edit/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editbagdesshop&badge=$1;
+    rewrite ^/publicroom/edit/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editpublicroom&publicroom=$1;
+    rewrite ^/publicroom/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=publicroom&delete=$1;
+    rewrite ^/report/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=report&delete=$1;
+    rewrite ^/gebrank/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=gebrank&user=$1;
+    rewrite ^/eventos/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=eventos&delete=$1;
+    rewrite ^/clones/edit/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=clonesedit&clon=$1;
+    rewrite ^/editfurni/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editfurni&id=$1;
+    rewrite ^/editrare/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editrare&id=$1;
+    rewrite ^/cataloguesections2/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=cataloguesections2&id=$1;
+    rewrite ^/editpage/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editpage&id=$1;
+    rewrite ^/editmueble/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editmueble&id=$1;
+    rewrite ^/editmuebles/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editmuebles&id=$1;
+    rewrite ^/editpermissions/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editpermissions&id=$1;
+    rewrite ^/vervacantes/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=vervacantes&id=$1;
+    rewrite ^/catalogpages/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=pagescatalog&delete=$1;
+    rewrite ^/editcomandos/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editcomandos&id=$1;
+    rewrite ^/editsalas/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editsalas&id=$1;
+    rewrite ^/edittareas/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=edittareas&id=$1;
+    rewrite ^/tareas/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=tareas&delete=$1;
+    rewrite ^/editfurniture/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editfurniture&id=$1;
+    rewrite ^/editfurnitures/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editfurnitures&id=$1;
+    rewrite ^/editgroups/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editgroups&id=$1;
+    rewrite ^/groups/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=groups&delete=$1;
+    rewrite ^/editroleplay/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editroleplay&id=$1;
+    rewrite ^/roleplayitems/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=roleplayitems&delete=$1;
+    rewrite ^/editroleplay/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editroleplay&delete=$1;
+    rewrite ^/salas/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=salas&delete=$1;
+    rewrite ^/editinfosindex/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editinfosindex&id=$1;
+    rewrite ^/infosindex/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=infosindex&delete=$1;
+    rewrite ^/editfansites/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editfansites&id=$1;
+    rewrite ^/fansites/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=fansites&delete=$1;
+    rewrite ^/replyreport/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=replyreport&id=$1;
+    rewrite ^/viewreportclosed/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=viewreportclosed&id=$1;
+    rewrite api/getclientdata /templates/habblum/getclientdata.php;
+    rewrite ^/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=$1;
+    rewrite adminpan/([a-zA-Z0-9_-]+)(|/)$ adminpan/index.php?url=$1;
+    rewrite news/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=news&id=$1;
+    rewrite raredetails/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=raredetails&id=$1;
+    rewrite rarespreview/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=rarespreview&id=$1;
+    rewrite rarespreview/([^/]+)/([^/]+) /index.php?url=rarespreview&id=$1&categoria=$2;
+    rewrite home/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=home&user=$1;
+    rewrite adminpan/gebruiker/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=gebruiker&user=$1;
+    rewrite adminpan/sollielook/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=sollielook&look=$1;
+    rewrite adminpan/news/delete/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=news&delete=$1;
+    rewrite adminpan/sollielook/delete/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=sollielook&delete=$1;
+    rewrite adminpan/news/edit/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=editnews&news=$1;
+    rewrite adminpan/bans/delete/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=bans&delete=$1;
+    rewrite adminpan/giveuseroftheweek/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=giveuseroftheweek&user=$1;
+    rewrite register/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=register&userref=$1;
+    rewrite newpassword/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=newpassword&key=$1;
+    rewrite adminpan/catalog/view/([0-9_-]+)(|/)$ /adminpan/index.php?url=catalog&view_id=$1;
+    rewrite ^/habbo-imaging/badge/(.*) /habbo-imaging/badge.php?badge=$1;
+    rewrite api/getclientconfig /templates/habblum/getclientconfig.php;
+    rewrite api/getclient /templates/habblum/getclientconfigtest.php;
+    rewrite api/getssoticketweb /templates/habblum/getssoticketweb.php;
+    rewrite audios/audio /audios/audio.php;
+}
+
+}

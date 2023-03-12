@@ -1,0 +1,15 @@
+Lista De Comandos Para Editar Furnis
+<span class="padding-top"><br></span><h3>COMANDOS PARA EDITAR FURNIS</h3><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+Lista de usos: (Nota: Edita TODOS los items abajo de ti)
+<b>¶ :item width numero (Edita la anchura del Item)</b><br><br>
+¶ :item length numero (Edita la longitud del Item)
+<b>¶ :item height numero (Edita la altura del Item)</b><br><br>
+¶ :item cansit si/no (Permite / No Permite sentarse sobre el Item)
+<b>¶ :item canwalk si/no (Permite / No Permite caminar sobre el Item)</b><br><br>
+¶ :item canstack si/no (Permite / No Permite apilar sobre el Item)
+<b>¶ :item mercadillo si/no (Permite / No Permite la venta del Item en mercadillo)</b><br><br>
+¶ :item interaction nombre (Asigna una interacción al Item)
+<b>¶ :item interactioncount numero (Asigna la cantidad de interacciones del Item)</b><br><br>
+<span class="padding-top"><br></span><p>
+<b>Nota:</b> Para que se actualice el Item debes recogerlo y ponerlo en la sala nuevamente o refrescar la sala.

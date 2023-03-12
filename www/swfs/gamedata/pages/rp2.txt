@@ -1,0 +1,26 @@
+﻿Lista De Comandos Para Jugar al RolePlay
+<span class="padding-top"><br></span><h3>COMANDOS PARA ATAQUE</h3><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+Lista de usos: (Nota: SOLO LOS COMANDO TIENEN EFECTO EN EL CAMPO DE BATALLA).
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>1):pan (disparar a un usuario) solo escribelo y colocate en la posicion que deseas disparar. </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+2):cac para combate de cuerpo a cuerpo a otro usuario. <br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+Para comprar armas municiones y vida, acerca a las baldosas de colores rojas y azul. </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>Para subir nivel debes matar a otros usuarios o bots. <
+<br><span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>Puedes recuperar tu vida pisando lo botequines que se encuentran en el piso, o ir a la tienda del medico. </b>
+<br><span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>Para equiparte las armas o municiones, debes abrir el inventario. </b>
+<span class="padding-top"><br></span><h1>Leyenda:</h1><span class="padding-top"><br><br><br><br></span>
+<span class="padding-top"><br></span><img src="https://www.habpvp.com/leyenda.png"><span class="padding-top"><br><br></span>
+
+

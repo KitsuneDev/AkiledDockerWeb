@@ -1,0 +1,59 @@
+- LISTA DE MASCOTAS -
+<img src="https://i.imgur.com/JKto4hN.png" hspace="140" vspace="1"/><br><br><br><br><br><br><br>
+<span class="padding-top"><br></span><p>El equipo técnico del hotel ha colocado increibles nuevas mascotas, las cuales pódras transformarte en ellas!<br><br>Usa el comando ":pet nombre" Colocando los siguientes parámetros y podrás transformarte en:<br><br>
+
+<b>Parámetros de Mascostas:</b><br><br>
+<img src="https://i.imgur.com/DZf7Yqy.png" align="right"/>
+&nbsp;&nbsp;0 - <b>habbo</b> - Transformar en habbo.<br>
+&nbsp;&nbsp;1 - <b>perro</b> - Transfórmate en un perro.<br>
+&nbsp;&nbsp;2 - <b>terrier</b> - Transfórmate en un fox terrier.<br>
+&nbsp;&nbsp;3 - <b>cocodrilo</b> - Transfórmate en un cocodrilo.<br>
+&nbsp;&nbsp;4 - <b>oso</b> - Transfórmate en un oso.<br>
+&nbsp;&nbsp;5 - <b>cerdo</b> - Transfórmate en un cerdo.<br>
+&nbsp;&nbsp;6 - <b>león</b> - Transfórmate en un león.<br>
+&nbsp;&nbsp;7 - <b>rinoceronte</b> - Transfórmate en un rinoceronte.<br>
+&nbsp;&nbsp;8 - <b>araña</b> - Transfórmate en una araña.<br>
+&nbsp;&nbsp;9 - <b>tortuga</b> - Transfórmate en una tortuga.<br>
+&nbsp;10 - <b>pollo</b> - Transfórmate en un pollito.<br>
+&nbsp;11 - <b>rana</b> - Transfórmate en una rana.<br>
+&nbsp;12 - <b>mono</b> - Transfórmate en un mono.<br>
+&nbsp;13 - <b>caballo</b> - Transfórmate en un caballo.<br>
+&nbsp;14 - <b>conejo</b> - Transfórmate en un conejo.<br>
+&nbsp;15 - <b>paloma</b> - Transfórmate en una paloma.<br>
+&nbsp;16 - <b>demonio</b> - Transfórmate en un demonio.<br>
+&nbsp;17 - <b>gnomo</b> - Transfórmate en un gnomo.<br>
+&nbsp;18 - <b>pikachu</b> - Transfórmate en un pikachu.<br>
+&nbsp;19 - <b>ash</b> - Transfórmate en ash.<br>
+&nbsp;20 - <b>conejomalo</b> - Transfórmate en un conejo malo.<br>
+&nbsp;21 - <b>beautifly</b> - Transfórmate en un beautifly.<br>
+&nbsp;22 - <b>slenderman</b> - Transfórmate en un slenderman.<br>
+&nbsp;23 - <b>monsterplant</b> - Transfórmate en una planta mostrosa.<br>
+&nbsp;24 - <b>oempaloempa</b> - Transfórmate en un oempa loempa.<br>
+&nbsp;25 - <b>velociraptors</b> - Transfórmate en un Velociraptors.<br>
+&nbsp;26 - <b>mario</b> - Transfórmate en un mario.<br>
+&nbsp;27 - <b>pinguino</b> - Transfórmate en un pinguino.<br>
+&nbsp;28 - <b>elefante</b> - Transfórmate en un elefante.<br>
+&nbsp;29 - <b>baby2</b> - Transfórmate en un bebe.<br>
+&nbsp;30 - <b>baby1</b> - Transfórmate en un bebe.<br>
+&nbsp;31 - <b>vaca</b> - Transfórmate en un vaca.<br>
+&nbsp;32 - <b>yoshi</b> - Transfórmate en un yoshi.<br>
+&nbsp;33 - <b>gengar</b> - Transfórmate en un gengar.<br>
+<img src="https://i.imgur.com/m1aWaF7.png" align="right"/>
+&nbsp;34 - <b>eevee</b> - Transfórmate en eevee.<br>
+&nbsp;35 - <b>pichu</b> - Transfórmate en pichu.<br>
+&nbsp;36 - <b>togepi</b> - Transfórmate en togepi.<br>
+&nbsp;37 - <b>riolu</b> - Transfórmate en riolu.<br>
+&nbsp;38 - <b>victini</b> - Transfórmate en victini.<br>
+&nbsp;39 - <b>osobaby</b> - Transfórmate en un bebe oso.<br>
+&nbsp;40 - <b>jirachi</b> - Transfórmate en un jirachi.<br>
+&nbsp;41 - <b>pikachu</b> - Transfórmate en un pikachu.<br>
+&nbsp;42 - <b>lobobaby</b> - Transfórmate en un bebe lobo.<br>
+&nbsp;43 - <b>cuy</b> - Transfórmate en un cuy.<br>
+&nbsp;44 - <b>piedra</b> - Transfórmate en una piedra.<br>
+&nbsp;45 - <b>mewtwopink</b> - Transfórmate en un mewtwo pink.<br>
+&nbsp;46 - <b>mewtwogolden</b> - Transfórmate en un mewtwo golden.<br>
+&nbsp;47 - <b>mewtwoblue</b> - Transfórmate en un mewtwo blue.<br>
+&nbsp;48 - <b>entei</b> - Transfórmate en un entei.<br>
+&nbsp;49 - <b>buho</b> - Transfórmate en un búho.<br>
+&nbsp;50 - <b>pterodactilo</b> - Transfórmate en un pterodactilo.<br>
+<span class="padding-bottom"><br></span>

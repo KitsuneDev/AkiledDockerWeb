@@ -1,0 +1,159 @@
+﻿.:: LISTA DE COMANDOS::.
+<span class="padding-top"><br></span><p>A continuación mostraremos la lista de comandos de Hionix</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><h2>COMANDOS ESTANDAR</h2><span class="padding-bottom"><br></span>
+¶ :autofloor        - Elimina las casillas vacias en tu floor.<br>
+<b>¶ :cac [USUARIO] - Ataca cuerpo a cuerpo a un usuario.</b><br>
+¶ :commands         - Mostrar los comandos del hotel.<br>
+<b>¶ :configbot     - Configurar un bot.</b><br>
+¶ :stackz [VALOR]   - Activar Modo Builder.<br>
+<b>¶ :stackzstop    - Desactivar Modo Builder.</b><br>
+¶ :convertcredits   - Canjear créditos o lingotes en tu inventario.<br>
+<b>¶ :convertdiamonds - Canjear díamantes en tu inventario.<br></b>
+¶ :convertduckets   - Canjear duckets en tu inventario.<br>
+<b>¶ :copy,mimic    - Copiar el look de un usuario.<br></b>
+¶ :disablediagonal  - Desactivar caminar en diagonal.<br>
+<b>¶ :emptyitems    - Vaciar tu inventario.<br></b>
+¶ :emptypets        - Vaciar inventario de mascotas.<br>
+<b>¶ :enable [ID]   - Activar un efecto.<br></b>
+¶ :follow           - Seguir  a un usuario.<br>
+<b>¶ :followme      - Activa o Desactiva para que no te sigan.<br></b>
+¶ :forcerot,setrot  - Forzar rotación de un furni.<br>
+<b>¶ :fumar,cripsy  - Fumarse un Porrito.<br></b>
+¶ :handitem         - Permite tener un item en la mano.<br>
+<b>¶ :hidewireds    - Ocultar los wireds de la sala.<br></b>
+¶ :info             - Mostrar información del servidor.<br>
+<b>¶ :tradeosoff,tradeoson - Activa o Desactiva tus tradeos.<br></b>
+¶ :lay              - Acostarse en la sala.<br>
+<b>¶ :loadvideo[URL]- Agregar un video a la pantalla youtube.<br></b>
+¶ :maxfloor         - Expande tu sala al máximo (FLOOR).<br>
+<b>¶ :moonwalk      - Caminar hacia atras.<br></b>
+¶ :noface,eyes      - Quitarte la cara y los ojos.<br>
+<b>¶ :ons           - Muestra los usuarios en linea.<br></b>
+¶ :pan              - Atacar de distancia a un usuario.<br>
+<b>¶ :pickall       - Recoger todos los furnis de la sala.<br></b>
+¶ :pull             - Jalar a un usuario.<br>
+<b>¶ :push          - Empujar a usuario.<br></b>
+¶ :mutepet          - Mutear las mascotas de la sala.<br>
+<b>¶ :saybot        - Forzar a un bot a decir algo.<br></b>
+¶ :setspeed         - Cambiar velocidad de los rollers<br>
+<b>¶ :setz          - Define la altura de los furnis que colocas en la sala.<br></b>
+¶ :setzstop         - Desactivar la altura de los furnis.<br>
+<b>¶ :sit           - Sientate en el suelo.<br></b>
+¶ :speedwalk        - Activa o Desactiva el Fast Walk<br>
+<b>¶ :spull         - Super Jalar a un usuario.<br></b>
+¶ :amigosoff        - Activar o descactivar peticiones de amistad.<br>
+<b>¶ :tir           - Enviar proyectiles a un usuario.<br></b>
+¶ :transf           - Transformarse en una mascota.<br>
+<b>¶ :transfstop    - Quitar transformación.<br></b>
+¶ :trigger,trg      - Accionas los Activadores de Wired <br>
+<b>¶ :unload        - Recargar la sala.<br></b>
+¶ :pay[usuario][diamantes o creditos][cantidad]- Paga o envia a un usuario X cantidad de diamantes o creditos. <br>
+<span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><h2>COMANDOS STAFF OWNER</h2><span class="padding-bottom"><br></span>
+<b>¶ :about - Mostrar Información del servidor.<br></b>
+¶ :addfilter - Agregar palabra al filtro.<br>
+<b>¶ :addphoto - Agregar una foto.<br></b>
+¶ :alert - Alertar a un usuario.<br>
+<b>¶ :ban - Banear a un usuario.<br></b>
+¶ :big - Transformarte en un usuario grande.<br>
+<b>¶ :bot - Transformate en un bot.<br></b>
+¶ :breakwalk - Activa o Desactiva caminar lento.<br>
+<b>¶ :cda - Enviar alerta de CDA.<br></b>
+¶ :chutall - Susurrar a todo el hotel con tu nombres.<br>
+<b>¶ :coins,credits,givecoins - Envia créditos.<br></b>
+¶ :control - Controlar a un usuario.<br>
+<b>¶ :convertgemas - Canjear gemas.<br></b>
+¶ :coords - Muestra las coordenadas donde estas parado.<br>
+<b>¶ :dados - Enviar alerta notificacion de dados abiertos.<br></b>
+¶ :delmission - Eliminar mision de un usuario.<br>
+<b>¶ :disconnect,dc - Desconectar a un usuario.<br></b>
+¶ :djalert - Enviar alerta de DJ transmitiendo.<br>
+<b>¶ :dupliroom - Duplicar la sala completa.<br></b>
+¶ :eha - Enviar alerta de juego.<br>
+<b>¶ :emblem - Activa el enable de tu rango.<br></b>
+¶ :emptybots - Vaciar inventario de bots.<br>
+<b>¶ :extrabox - Enviar número de extrabox<br></b>
+¶ :facewalk - Caminar en un solo sentido.<br>
+<b>¶ :fbalert - Enviar alerta de facebook.<br></b>
+¶ :flagme - Habilitar cambiar el nombre de un usuario.<br>
+<b>¶ :freeze - Congelar a  un usuario.<br></b>
+¶ :gamealert - Deshabilita la animacion de la alertas de juegos.<br>
+<b>¶ :get,come,summon - Traer a un usuario.<br></b>
+¶ :givebadge - Dar una placa a un usuario.<br>
+<b>¶ :givelot - Enviar Lot a un usuario.<br></b>
+¶ :givemoney - Enviar dinero a un usuario.<br>
+<b>¶ :ha,hotelalert - Alerta global a todo el hotel.<br></b>
+¶ :ignoreall - Ignorar a todos lo usuarios.<br>
+<b>¶ :infosuperwired - Mostrar Informacíon del Super Wired.<br></b>
+¶ :ingalert - Enviar alerta de Instagram.<br>
+<b>¶ :invisible - Activar modo invisible.<br></b>
+¶ :ipban - Banear IP de un usuario.<br>
+<b>¶ :item - permite editar la información de un furni.<br></b>
+¶ :janken - Jugar piedra papel o tijeras.<br>
+<b>¶ :kickall - Echar a todos.<br></b>
+¶ :little - Transformarte en un usuario pequeño.<br>
+<b>¶ :loadroomitems - Numero de items en un sala.<br></b>
+¶ :LTDmensual - Enviar alerta de LTD mensual.<br>
+<b>¶ :massbadge - Enviar placa a todo el hotel.<br></b>
+¶ :mazo - Juega al Mazo.<br>
+<b>¶ :mcban - Banear MAC a un usuario.<br></b>
+¶ :murmur - Activa o Desactiva los susurros.<br>
+<b>¶ :notiftop - Enviar una alerta en la parte alta de la pantalla.<br></b>
+¶ :oldfoot - Altera los efectos de la pelota.<br>
+<b>¶ :oleada - Enviar alerta de Oleada publicitaria.<br></b>
+¶ :override - Caminar sobre todo.<br>
+<b>¶ :prison - Enviar a prision a un usuarion.<br></b>
+<b>¶ :pyramide - Habilita o Deshabilita las Pyramides Wired<br></b>
+¶ :randomlook - Cambia tu look aleatoriamente.<br>
+<b>¶ :refresh - Refresca todas las variables.<br></b>
+¶ :removebadge - Quitar placa a un usuario.<br>
+<b>¶ :roomalert - Envia alerta a toda la sala.<br></b>
+¶ :roombadge - Enviar placa a toda la sala.<br>
+<b>¶ :roomenable - Activar efecto a toda la sala.<br></b>
+¶ :roomfreeze - Congelar toda la sala.<br>
+<b>¶ :roomkick - Kickear toda la sala.<br></b>
+¶ :roommute - Mutear la sala.<br>
+<b>¶ :roomunmute - Desmutear la sala completa.<br></b>
+¶ :roomyoutube,ry - Mostrar video de youtube a toda la sala.<br>
+<b>¶ :rumba - Enviar Alerta de Rumba<br></b>
+¶ :rw,reward - Dar Reward a un usuario.<br>
+<b>¶ :say - Forzar a un usuario a decir un mensaje.<br></b>
+¶ :setbot - Transforma a un usuario en bot.<br>
+<b>¶ :seteffect - Forzar a un usuario a usar un efecto<br></b>
+¶ :setenable - Activale un efecto a un usuario.<br>
+<b>¶ :setmax - Aumentar la cantidad de usuarios en la sala.<br></b>
+¶ :setmimic - Colocale tu look a un usuario.<br>
+<b>¶ :settransf - Transforma a un usuario.<br></b>
+¶ :settransfstop - Quitale la transformacion a un usuario.<br>
+<b>¶ :showguide - Mostrar los guías en servicio.<br></b>
+¶ :shutdown - Apagar el Emulador del Hotel (Solo para rangos Altos).<br>
+<b>¶ :sp - Enviar Spam Másivo de Hionix Hotel.<br></b>
+¶ :subalert - Enviar Alerta de Subasta de Rares.<br>
+<b>¶ :superban - Superban a un usuario.<br></b>
+¶ :superbot - Activar a un numero de bots con tu estilo.<br>
+<b>¶ :superkick - Super kick a un usuario.<br></b>
+¶ :supermute - Mutear a un usuario por 5 minutos.<br>
+<b>¶ :teleport,tele - Teletransportate por toda la sala.<br></b>
+¶ :teleportstaff - Activar teletransportación en la sala.<br>
+<b>¶ :unban - Desbenear a un usuario.<br></b>
+¶ :unloadroom - Recargar la sala.<br>
+<b>¶ :unmute - Desmutear a un usuario.<br></b>
+¶ :use - Activar mas de un click en furnis.<br>
+<b>¶ :userinfo - Mostrar información de un usuario.<br></b>
+¶ :usestop - Desactiva el comando para los usos de los furnis.<br>
+<b>¶ :verclon - Ver clones de un usuario.<br></b>
+¶ :vip,premium, protect - Activa o Desactiva Efecto Expert.<br>
+<b>¶ :warp - Traer  a un usuario a tu ubicación.<br></b>
+¶ :warpall - Traer a todos los usuarios de la sala a tu ubicación.<br>
+<b>¶ :warpstaff - Traer todos los staff a tu ubicación.<br></b>
+¶ :youtube,yut - Enviar pantalla de youtube a un usuario.<br>
+<span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><h2>Caracteres especiales con códigos alt!</h2><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+Para mayor diversión, puede activar caracteres especiales manteniendo presionada la tecla Alt en su teclado e ingresando los siguientes códigos en el teclado numérico!</p>
+<span class="padding-bottom"><br></span>
+<img src="http://images.habbo.com/c_images/habbopages/chat_altcodes.png" height="295" hspace="1" vspace="1"/>
+<font size="12px"><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> 
+</p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p></font><p><font size="-1"> 
+</font></p><img src="http://images-eussl.habbo.com/c_images/reception/3b505e.png" width="1000" height="1"/><br>
+<span class="padding-top"><br></span>

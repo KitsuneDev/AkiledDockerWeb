@@ -1,0 +1,55 @@
+﻿.:: LISTA DE COMANDOS ::.
+<span class="padding-top"><br></span><p>A continuación mostraremos la lista de comandos de HabPvP</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><h2>COMANDOS ESTANDAR</h2><span class="padding-bottom"><br></span>
+¶ :autofloor        - Elimina las casillas vacias en tu floor.<br>
+<b>¶ :cac [USUARIO] - Ataca cuerpo a cuerpo a un usuario.</b><br>
+¶ :commands         - Mostrar los comandos del hotel.<br>
+<b>¶ :configbot     - Configurar un bot.</b><br>
+¶ :stackz [VALOR]   - Activar Modo Builder.<br>
+<b>¶ :stackzstop    - Desactivar Modo Builder.</b><br>
+¶ :convertcredits   - Canjear créditos o lingotes en tu inventario.<br>
+<b>¶ :convertdiamonds - Canjear díamantes en tu inventario.<br></b>
+¶ :convertduckets   - Canjear duckets en tu inventario.<br>
+<b>¶ :copy,mimic    - Copiar el look de un usuario.<br></b>
+¶ :disablediagonal  - Desactivar caminar en diagonal.<br>
+<b>¶ :emptyitems    - Vaciar tu inventario.<br></b>
+¶ :emptypets        - Vaciar inventario de mascotas.<br>
+<b>¶ :enable [ID]   - Activar un efecto.<br></b>
+¶ :follow           - Seguir  a un usuario.<br>
+<b>¶ :followme      - Activa o Desactiva para que no te sigan.<br></b>
+¶ :forcerot,setrot  - Forzar rotación de un furni.<br>
+<b>¶ :fumar,cripsy  - Fumarse un Porrito.<br></b>
+¶ :handitem         - Permite tener un item en la mano.<br>
+<b>¶ :hidewireds    - Ocultar los wireds de la sala.<br></b>
+¶ :info             - Mostrar información del servidor.<br>
+<b>¶ :troc          - Activa o Desactiva tus tradeos.<br></b>
+¶ :lay              - Acostarse en la sala.<br>
+<b>¶ :loadvideo[URL]- Agregar un video a la pantalla youtube.<br></b>
+¶ :maxfloor         - Expande tu sala al máximo (FLOOR).<br>
+<b>¶ :moonwalk      - Caminar hacia atras.<br></b>
+¶ :noface,eyes      - Quitarte la cara y los ojos.<br>
+<b>¶ :ons           - Muestra los usuarios en linea.<br></b>
+¶ :pan              - Atacar de distancia a un usuario.<br>
+<b>¶ :pickall       - Recoger todos los furnis de la sala.<br></b>
+¶ :pull             - Jalar a un usuario.<br>
+<b>¶ :push          - Empujar a usuario.<br></b>
+¶ :mutepet          - Mutear las mascotas de la sala.<br>
+<b>¶ :saybot        - Forzar a un bot a decir algo.<br></b>
+¶ :setspeed         - Cambiar velocidad de los rollers<br>
+<b>¶ :setz          - Define la altura de los furnis que colocas en la sala.<br></b>
+¶ :setzstop         - Desactivar la altura de los furnis.<br>
+<b>¶ :sit           - Sientate en el suelo.<br></b>
+¶ :speedwalk        - Activa o Desactiva el Fast Walk<br>
+<b>¶ :spull         - Super Jalar a un usuario.<br></b>
+¶ :amigosoff        - Activar o descactivar peticiones de amistad.<br>
+<b>¶ :tir           - Enviar proyectiles a un usuario.<br></b>
+¶ :transf           - Transformarse en una mascota.<br>
+<b>¶ :transfstop    - Quitar transformación.<br></b>
+¶ :trigger,trg      - Accionas los Activadores de Wired <br>
+<b>¶ :unload        - Recargar la sala.<br></b>
+<span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><h2>Caracteres especiales con códigos alt!</h2><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+Para mayor diversión, puede activar caracteres especiales manteniendo presionada la tecla Alt en su teclado e ingresando los siguientes códigos en el teclado numérico!</p><span class="padding-bottom"><br></span>
+<img src="http://habboo-a.akamaihd.net/c_images/habbopages/chat_altcodes.png" height="295" hspace="1" vspace="1"/><font size="12px"><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p></font><p><font size="-1"> </font></p><img src="http://images-eussl.habbo.com/c_images/reception/3b505e.png" width="1000" height="1"/><br>
+<span class="padding-top"><br></span><p>Also see: <a href="event:habbopages/chat/options">Chat Options</a></p><span class="padding-bottom"><br></span>

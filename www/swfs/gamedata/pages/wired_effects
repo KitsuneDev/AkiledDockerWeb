@@ -1,0 +1,51 @@
+Effets Wired
+<span class="padding-top"><br></span><h1>Effets Wired</h1><span class="padding-top"><br></span>
+<span class="padding-top"><br></span><h3>Comment fonctionne chaque effet?</h3><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_toggle_state.png" vspace="0" align="center" hspace="10"/><b>EFFET WIRED: Modifie l'état du mobi</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet modifie l'état du mobi sélectionné comme si l'on avait double-cliqué dessus</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_teleport_to.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED: Téléporte vers un mobi</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet téléporte l'utilisateur qui l'a déclenché vers un mobi. Si tu en sélectionnes plus d'un l'utilisateur sera alors téléporté de manière aléatoire</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_bot_teleport.png" vspace="0" align="left" hspace="5"/><b>EFFET WIRED: Téléporte le Bot vers un mobi</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Téléporte le Bot sélectionné vers le mobi choisi</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_bot_clothes.png" vspace="0" align="left" hspace="7"/><b>EFFET WIRED : Le Bot change de vêtements</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet change les vêtements du Bot sélectionné</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_bot_move.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Le Bot se déplace vers un mobi</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Le Bot sélectionné se déplace vers le mobi choisi</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_bot_talk.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Le Bot parle à tous les utilisateurs</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Le bot parle ou crie à tous les utilisateurs</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images//album3606/wf_act_bot_talk_to_avatar.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED: Le bot parle ou murmure à l'utilisateur</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Le Bot sélectionné parle ou murmure à l'utilisateur déclencheur</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_bot_follow_avatar.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Le Bot suit l'utilisateur</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Le Bot choisi suit l'utilisateur déclencheur</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_bot_give_handitem.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Le Bot donne un objet</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Le Bot sélectionné donne l'objet choisi</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_kick_user.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Expulser utilisateur</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet expulse un utilisateur en fonction des critères déclencheurs</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_show_message.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED: Affiche un message</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet fait appraître un message secret visible uniquement par celui qui l'a déclenché</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_move_rotate_1.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED: Déplace et tourne le mobi sélectionné</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet déplace et fait tourner le mobi sélectionné</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_match_to_sshot.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED: Réinstalle le mobi dans sa condition-état initial</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet ramène le mobi sélectionné à sa condition de départ</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_call_stacks.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Exécuter piles Wired</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Ce Wired te permet de sélectionner 5 piles Wired à exécuter avec un seul déclencheur, indépendamment des conditions ou des déclencheurs</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_reset_timers.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED: Réinitialise le minuteur</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet relance les minuteurs</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_give_score.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED: Donne des points</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cette action récompense d'un certain nombre de points l'équipe d'utilisateurs qui a délcenché cet effet. TU peux aussi choisir combien de fois ces points seront donnés au cours du jeu</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_xtra_random.png" vspace="0" align="left" hspace="10"/><b>VERROU WIRED: Effet aléatoire</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Il ne peut s'enclencher à la fois qu'un seul effet aléatoire</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_xtra_unseen.png" vspace="0" align="left" hspace="10"/><b>VERROU WIRED: Effet cyclique</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Il ne peut s'enclencher à la fois qu'un seul effet cyclique</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_chase.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Poursuite</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet effet déplace les Mobis vers l'utilisateur le plus proche de la même ligne ou colonne. Si il y a un utilisateur près de ce mobi, Déclencheur : collision peut l'activere</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_flee.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Fuite</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Quand le mobi déclenché s'éloigne d'une dalle de l'avatar le plus proche</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_give_score_tm.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Donner score</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Donne le score à l'équipe prédéfinie</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_join_team.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Rejoindre équipe</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>L'avatar déclencheur rejoint l'équipe prédéfinie</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_leave_team.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Quitter équipe</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>L'avatar déclencheur quitte l'équipe prédéfinie</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p><img src="https://swf.wibbo.me/dcr/c_images/album3606/wf_act_move_to_dir.png" vspace="0" align="left" hspace="10"/><b>EFFET WIRED : Change la direction du mobi</b></p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Cet Effet change la direction du mobi. Quand le mouvement est bloqué, le mobi change de direction selon les paramètres. Si un utilisateur est à côté, Déclencheur : collision s'activera</p><span class="padding-bottom"><br></span>

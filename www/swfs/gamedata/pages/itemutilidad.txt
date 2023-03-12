@@ -1,0 +1,105 @@
+﻿Lista De Comandos Para Editar Furnis
+<span class="padding-top"><br></span><h3>COMANDOS PARA EDITAR FURNIS</h3><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+Lista de usos: (Nota: Edita TODOS los items posicionado sobre ellos).
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>1):item width numero (Edita la anchura del Item). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+2):item length numero (Edita la longitud del Item). <br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>3):item height numero (Edita la altura del Item). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+4):item cansit si/no (Permite / No Permite sentarse sobre el Item). <br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>5):item canwalk si/no (Permite / No Permite caminar sobre el Item). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+6):item canstack si/no (Permite / No Permite apilar sobre el Item). <br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>7):item mercadillo si/no (Permite / No Permite la venta del Item en mercadillo). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+8):item interaction nombre (Asigna el handitem que da el furni). <br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>9):item interactioncount numero (Asigna una interacción al Item). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+10):item vendingid numero (Asigna la cantidad de interacciones del Item). <br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>11):item furniname nombre (Cambiar el nombre del furni en la tabla furniture). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+12):item cataname nombre (Cambiar el nombre del item en la tabla catalog_items). <br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>13):item heightajust numero (Edita la altura ajustable del Item). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+14):item effect numero (Edita el efecto que dara el Item). <br>
+<b>15):item wired numero (Edita el id del wired). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+16):item id ver el ID del item.<br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>17):item setpage mudar item de pagina. </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+18):item setreceta colocar item en recetas para crafting.<br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>19):item cantrade permitir que el item sea tradeable.</b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+20):item ltdstack permite establecer la cantidad de ltd a vender.<br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>21):item ltdsell cambiar la cantidad de ltd vendidos. </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+22):item pcredits cambiar el precio de un item en creditos.<br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>23):item pdiamonds cambiar el precio de un item en Kakacoins.</b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+24):item pduckets cambiar el precio de un item en duckets.<br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>25):item countltd saber la cantidad de ltds de un item.</b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+26):item count saber la cantidad items que hay en todo el hotel.<br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>27):item preciokk cambiar el precio de un item en la pagina de rares.</b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+28):item preciokknoltd cambiar el precio de un item en la pagina de rares no ltd.<br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>29):item setlastmonth colocarlo en la pagina principal de rares en la web.</b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+30):item setcat cambiar categoria del rare en la pagina de precios de rares.<br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>31):item newprice nuevo precio del rare en la pagina de precios de rares.</b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+32):item catanameweb nombre (Cambiar el nombre del item en la tabla catalog_items_history). <br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<b>33):item catanameitem nombre (Cambiar el nombre del item en la tabla catalog_items_history). </b><br>
+<span class="padding-top"><br></span><p>
+<span class="padding-top"><br></span><p>
+<br>
+Nota: Para que se actualice el Item debes recogerlo y ponerlo en la sala nuevamente o refrescar la sala.

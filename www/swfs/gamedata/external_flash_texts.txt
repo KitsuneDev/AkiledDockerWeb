@@ -1,0 +1,3 @@
+landing.view.2021NitroPromo.header=Bem vindo ao Rabbo Hotel!
+landing.view.2021NitroPromo.body=Obrigado por acessar!
+landing.view.2021NitroPromo.button=Abrir o Google

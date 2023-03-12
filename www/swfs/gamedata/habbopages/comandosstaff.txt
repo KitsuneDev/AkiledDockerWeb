@@ -1,0 +1,119 @@
+﻿LISTA DE COMANDOS
+<span class="padding-top"><br></span><p>Acontinuación la lista de comandos de PvP</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><h2>COMANDOS ESTANDAR</h2><span class="padding-bottom"><br></span>
+
+<b>¶ :abrazar [nick] - Darle un abrazo a alguien.</b><br>
+¶ :ayuda - Solicitar ayuda de los staff (limitado).<br>
+<b>¶ :alertasoff - Deshabilita las alertas de los eventos.</b><br>
+¶ :besar [nick] - Besar a alguien.<br>
+<b>¶ :robar [nick] - Robar a alguien.</b><br>
+¶ :bubble - Usar bocadillo customizado.<br>
+<b>¶ :comandos - Ver la lista de sus comandos en PvP.</b><br>
+¶ :convertcredits - Convertir items canjeables a créditos.<br>
+<b>¶ :color - Lista de colores para el chat.</b><br>
+¶ :comprarsala - Comprar una sala.<br>
+<b>¶ :dance - Para bailar usando el id del (1 al 4).</b><br>
+¶ :deletegroup - Eliminar un Grupo.<br>
+<b>¶ :desbug - Desbugear la sala.</b><br>
+¶ :diagonal - Desactivar/Activar Caminar en diagonal.<br>
+<b>¶ :disablegifts - Desactivar/Activar Regalos.</b><br>
+¶ :ejectall - Recoger todos los furnis de la sala.<br>
+<b>¶ :empty - Limpiar inventario.</b><br>
+¶ :enable - Usar un efecto.<br>
+<b>¶ :follow [nick] - Seguir a un usuario.</b><br>
+¶ :crispy - Para fumarte un crispysito (Cuesta 5 diamantes).<br>
+<b>¶ :info - Información acerca del hotel.</b><br>
+¶ :ir [id] - Ir a una sala directamente con su id.<br>
+<b>¶ :kickbots - Echar todos los bots de la sala.</b><br>
+¶ :kickpets - Echar todas las mascotas de la sala.<br>
+<b>¶ :lay - Acostarse en el suelo.</b><br>
+¶ :matar [nick] - Matar a alguien.<br>
+<b>¶ :mimic [nick] - Copiar el look de otro usuario.</b><br>
+¶ :moonwalk - Caminar como Michael Jackson.<br>
+<b>¶ :mutebots - Ignorar lo que dicen los bots.</b><br>
+¶ :mutepets - Ignorar lo que dicen las mascotas.<br>
+<b>¶ :ons - Ver cuantos personas están jugando.</b><br>
+¶ :pet - Te permite transformarte en una mascota.<br>
+<b>¶ :pickall - Recoger todos los furnis de la sala.</b><br>
+¶ :pull [nick] - Jalar a alguien.<br>
+<b>¶ :push [nick] - Empujar a alguien.</b><br>
+¶ :reload - Recarga la sala.<br>
+<b>¶ :mostrarcara - Muestra tu cara.</b><br>
+¶ :setmax - Define el máximo de usuarios en la sala.<br>
+<b>¶ :setspeed - Definela velocidad de los rollers.</b><br>
+¶ :sit - Sentarte en el suelo.<br>
+<b>¶ :stand - Levantarse del suelo.</b><br>
+¶ :stats - Ver tu información.<br>
+<b>¶ :nuevo [nick] - Dar bienvenida a un usuario nuevo.</b><br>
+
+<span class="padding-top"><br></span><h2>COMANDOS EXPERT VIP'S PVP</h2><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+<b>† :todosami - Hacer que todos en la sala vayan hacia tí.</b><br>
+† :todosolham - Hacer que todos te miren en la sala.<br>
+<b>† :console - Desactivar/Activar mensajes en la consola.</b><br>
+† :cores - Novas cores de chat.<br>
+<b>† :disablemimic - Desactivar/Activar para que no se copien el look.</b><br>
+† :goboom - Explotar toda la sala.<br>
+<b>† :spull [nick] - Jala a una persona en extremo</b><br>
+† :spush [nick] - Empuja a una persona en extremo<br>
+<b>† :sussurros - Desactivar/Activar sussurros.</b><br>
+† :override - Caminar por encima de los furnis.<br>
+<b>† :poll - Iniciar una votación.</b><br>
+† :stoppoll - Terminar una votación.<br>
+<b>† :tele - Teletrasportarte por todo la sala.</b><br>
+† :venderquarto - Vender sala.<br>
+<b>† :fastwalk - Caminar o correr mas rápido.</b><br>
+† :roomalert [texto] - Manda alerta a todos en la sala.<br>
+<b>† :amigosno - No recibir peticiones de amistad.</b><br>
+† :amigossi [texto] - Recibir peticiones de amistad.<br>
+
+
+
+
+<span class="padding-top"><br></span><h2>COMANDOS TEAM PVP</h2><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+» :ban [nick] - Ban a un usuario.<br><br>
+<b>» :coords - Mostrar tus coordenadas en la sala.</b><br><br>
+» :dc [nick] - Desconectar a alguien del hotel.<br><br>
+<b>» :eha - Alertas a los usuarios para un nuevo evento.</b><br><br>
+» :filtro [palabra] - Agregar palabra al filtro.<br><br>
+<b>» :flaguser [nick] - Forza a un usuario a cambiar su nombre.</b><br><br>
+» :forced_effects - Permitir o Ignorar los efectos.<br><br>
+<b>» :forcesit [nick] - Forza a alguiena que se siente.</b><br><br>
+» :freeze [nick] - Congelar a alguien.<br><br>
+<b>» :freezequarto - Congelar toda la sala.</b><br><br>
+» :give [nick] [tipo] [cantidad] - Dar diamantes/creditos/duckets a alguien.<br><br>
+<b>» :givebadge [nick] [código] - Dar Placa a alguien.</b><br><br>
+» :ha [texto] - Mandar alerta para todo el hotel.<br><br>
+<b>» :hal [link] [texto] - Mandar alerta con link a todo el hotel.</b><br><br>
+» :ignorewhispers - Permite ignorar todos los susurros en la sala, exepto los tuyos.<br><br>
+<b>» :alert [nick] [texto] - Mandar alerta a un usuario.</b><br><br>
+» :ipban [nick] - Banear ip a un usuario.<br><br>
+<b>» :kick [nick] [texto] - Expulsar a un usuario de la sala.</b><br><br>
+» :makesay [nick] [texto] - Hacer que alguien diga una palabra.<br><br>
+<b>» :massbadge [código] - Dar placa a todo el hotel.</b><br><br>
+» :massdance [id] - Hacer que todos bailen en la sala.<br><br>
+<b>» :massenable [id] - Efecto a toda la sala.</b><br><br>
+» :massgive [tipo] [cantidad] - Dar diamantes/creditos/duckets para todo el hotel.<br><br>
+<b>» :unmute [nick] - Desmuteara  un usuario.</b><br><br>
+» :mip [nick] - Banear Mac a un usuario.<br><br>
+<b>» :usermute [nick] [tiempo] - Mutear a un usuario por un determinado tiempo.</b><br><br>
+» :tradeban [nick] [tiempo] - Bloquear tradeos a un usuario.<br><br>
+<b>» :override - Caminar sobre los furnis.</b><br><br>
+» :removebadge [nick] [código] - Quitarle placa a un usuario.<br><br>
+<b>» :roombadge [código] - Dar placa a toda una sala.</b><br><br>
+» :roomkick [texto] - Expulsar a toda una sala con un mensaje.<br><br>
+<b>» :roommute - Mutear sala completa.</b><br><br>
+» :roomunmute - Desmutear sala completa.<br><br>
+<b>» :sa [mensagem] - Enviar mensaje a todos los staff conectados.</b><br><br>
+» :sayall [texto] - Forza a decir algo a todos los usuarios.<br><br>
+<b>» :givebadgeoff - Dar placa a usuarios desconectados.</b><br><br>
+» :summon [nick] - Trear a alguien hacia ti a las fuerza.<br><br>
+<b>» :superfastwalk - Correr o caminar mas rapido.</b><br><br>
+» :ui [nick] - Mostrar información de un usuario.<br><br>
+<b>» :unfreeze [nick] - Descongelar alguien.</b><br><br>
+» :unfreezequarto - Descongelar una sala completa.<br><br>
+
+
+</p><span class="padding-bottom"><br></span>
+

@@ -1,0 +1,9 @@
+¡Bienvenid@ a PvP!
+<span class="padding-top"><br></span><img src="http://www.pvponline.me/gm/habbopages/logobien.png"/></h1><span class="padding-top"><br><br></span>
+<span class="padding-top"><br></span><h1>Bienvenido a HabPvP:</h1><span class="padding-top"><br><br><br><br></span>
+<span class="padding-top"><br></span><p>Recuerda que los Puntos de Honor volverán a estar disponibles cuando termine la campaña de navidad, así que no los has perdido.</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>En toda comunidad existen reglas, y HabPvP no es la excepción, lee las reglas de convivencia y evita problemas con el resto de usuarios.</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><h2>¿Cómo consigo monedas?</h2><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>En HabPvP recibes créditos, duckets y diamantes de forma gratuita, basta con estar conectad@ durante 15 minutos y recibirás gratuitamente una recarga.</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Recuerda que también debes participar en eventos para ganar premios mayores como los puntos de honor, que te permitirán comprar <a href="event:catalog/open/guild_forum">rares</a> en el <a href="event:catalog/open/">catálogo</a>.</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span>

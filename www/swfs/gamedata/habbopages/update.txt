@@ -1,0 +1,22 @@
+Lista De Comandos
+<span class="padding-top"><br></span><h2>LISTA COMANDOS UPDATE</h2><span class="padding-bottom"><br></span>
+<b>¶ :update cata = Actualizar el cátalogo.</b><br><br>
+¶ :update furnis = Actualiza los ítems.</b><br><br>
+<b>¶ :update modelos = Por si añades algun models.</b><br><br>
+¶ :update promos = Actualiza las noticias de la vista hotel.</b><br><br>
+<b>¶ :update filtro = Actualiza el filtro.</b><br><br>
+¶ :update navi = Actualiza el Navegador.</b><br><br>
+<b>¶ :update permisos = Actualiza los Permisos.</b><br><br>
+¶ :update config = Actualiza la configuracion del hotel.</b><br><br>
+<b>¶ :update bans = Actualiza los baneados.</b><br><br>
+¶ :update tickets = Actualiza los tickets de mod.</b><br><br>
+<b>¶ :update placas = Actualiza las placas agregadas.</b><br><br>
+¶ :update vouchers = Actualiza los vouchers agregados.</b><br><br>
+<b>¶ :update characters = Actualiza los carácteres del filtro.</b><br><br>
+¶ :update quests = Actualiza las quests.</b><br><br>
+<b>¶ :update achievements = Actualiza los achievements.</b><br><br>
+¶ :update mutant = Actualiza los mutantes looks.</b><br><br>
+<b>¶ :update bots = Actualiza los bots.</b><br><br>
+¶ :update pets = Actualiza las mascotas.</b><br><br>
+<b>¶ :update youtube = Actualiza las pantallas de videos.</b><br><br>
+¶ :update camara = Actualiza la camara.</b><br><br>

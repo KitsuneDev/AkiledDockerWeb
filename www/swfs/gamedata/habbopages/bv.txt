@@ -1,0 +1,28 @@
+¡Bienvenid@ a PvP!
+<span class="padding-top"><br></span><img src="http://swfs.habbet.me/gm/habbopages/logobien.png"><span class="padding-top"><br><br></span>
+<span class="padding-top"><br></span><h1>Bienvenido a HabPvP:</h1><span class="padding-top"><br><br><br><br></span>
+<span class="padding-top"><br></span><p>Estimado usuari@, hemos realizados cambios en el hotel, como puedes apreciar, se cambiado la interfaz gráfica del juego, así como tambien la estetica de la página web.</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>Estamos dando el máximo por la comunidad, estamos trabajando muy fuerte para toda la comunidad del hotel, es de nuestro agrado hacer que te sientas cómodo en el hotel y sobre todo de puedas divertir con tus amig@s, pvp seguirá siendo la familia de siempre, un lugar único en donde te sentirás diferente.</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span>
+<h2>NUEVAS CARACTERISTICAS</h2>
+<span class="padding-bottom"><br></span>
+<ul>
+<li type="circle"><b>Nuevos Wired Fixeados, Custom, Otros.</b></li>
+<li type="disc">Nuevos Comandos, Custom, Otros.</li>
+<li type="circle"><b>Sistema de votaciones.</b></li>
+<li type="disc">Chat y Nick De Colores.</li>
+<li type="circle"><b>Nuevo Sistema Para Usuari@ Expert VIP.</b></li>
+<li type="disc">Catálogo Actualizado y Remodelado.</li>
+<li type="circle"><b>Nuevas Prendas Para Vestir.</b></li>
+<li type="disc">Nuevas Mascotas.</li>
+<li type="circle"><b>Nuevas HandItems (Bebidas y Snacks).</b></li>
+<li type="disc">Agregado El Chat De Grupos.</li>
+<li type="circle"><b>Nuevo SWF.</b></li>
+<li type="disc">Alertas HTML.</li>
+<li type="circle"><b>Nuevos Notificaciones.</b></li>
+<li type="disc">Entre Otras Cosas Más.</li>
+</ul>
+<h2>NUEVO SISTEMA DE EVENTOS</h2>
+<span class="padding-bottom"><br></span>
+<p>Recuerda que también debes participar en eventos para ganar premios mayores como los puntos de VIP, que te permitirán comprar <a href="event:catalog/open/ltdrares">rares</a> en el <a href="event:catalog/open/principal">catálogo</a>.</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span><span class="padding-top"><br> </span>

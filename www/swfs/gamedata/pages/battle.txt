@@ -1,0 +1,24 @@
+HabPvP Battle Zone
+<span class = "padding-top"> <br> </span> <h1> ¿Qué es HabPvP Battlezone? </h1> <span class = "padding-top"> <br> </span >
+<img src = "https://4.bp.blogspot.com/-ekpOa_G7OWA/VuH3WLNcaBI/AAAAAAAAlSY/CbZ0Li0IlIE050jnMNERT7rvQn5hdVypQ/s1600/article_image.png" vspace = "0" align = "right" hspace = "0" /> </p>
+<p>
+Este es un mini juego RolePlay, en el que tienes que tienes que sobrevivir al ataque de los terroristas de HabPvP, son delincuentes muy peligrosos, muy bien entrenados, para matar no tendran piedad. <br/>
+<br/>
+</p>
+<span class = "padding-top"> <br> </span> <h1> ¿Cómo jugar? </h1> <span class = "padding-top"> <br> </span>
+<p>
+Es simple solo necesitas un arma y municiones, las podras conseguir en la tienda del campamento, encuentra los suministros necesarios, el combate es muy fuerte, capaz no logres sobrevivir al combate, ocupate de conseguir una buena arma y tener suficiente botequines para la curarte. <br/>
+<br/>
+<img src = "https://1.bp.blogspot.com/-9qAIHDOGIlU/Wot_Tqno93I/AAAAAAABFbg/9lx71bomSGsx_R_2OtQeBEoy9CCI02-ngCKgBGAs/s1600/784681859.png" vspace = "0" align = "right" hspace = "0" /> </p>
+Una vez comprado tu arsenal, puedes abrir tu mochila que se localiza debajo de tu nivel de jugador, al abrir tu mochila te encontraras con los items que tienes disponibles para usar o equipar.<br/>
+</p>
+<span class = "padding-top"> <br> </span> <h1> ¿Cómo atacar a un jugador? </h1> <span class = "padding-top"> <br> </span>
+<p>
+Primero, tienes la posibilidad de atacar el cuerpo a cuerpo, para hacer este tipo de ataque, será necesario usar el comando <b>: cac x </b> estando dentro de 2 casillas de tu oponente. El bate de béisbol, la espada y el sable de luz son armas destinadas al cac. <br/>
+<br/>
+También puede atacar de forma remota con el comando <b>:pan </b>. Este comando consume una munición e instantáneamente envía uno o más proyectiles a la dirección de tu personaje. El rifle básico, la pistola y la ametralladora son armas de ataque a distancia. <br/>
+</p>
+<span class = "padding-top"> <br> </span> <h1> ¿Cómo intercambiar? </h1> <span class = "padding-top"> <br> </span>
+<p>
+Para realizar el trueque, necesariamente debe encontrarse en un área segura, haga clic en la persona en cuestión y, para terminar, haga clic en el botón <i> intercambio </i> y ¡usted hará el resto! >
+</p>

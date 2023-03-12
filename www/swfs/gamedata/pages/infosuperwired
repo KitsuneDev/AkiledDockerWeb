@@ -1,0 +1,69 @@
+Como usar el SuperWired
+<span class="padding-top"><br></span><h3>Lista de Comandos para el SuperWired Efecto:</h3><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+<b>enable:(id)</b></b> - Activa un efecto a un usuario (:enable list).<br />
+<b>dance:(1 - 4)</b> - Activa un modo de baile a un usuario.<br />
+<b>handitem:(id)</b> - Dar bebida o comida a un usuario.<br />
+<b>setspeed:(0 - 100)</b> - Cambia la velocidad de los rollers.<br />
+<b>freeze:(segundos)</b> - Congela a un usuario en la sala.<br />
+<b>unfreeze:</b> - Descongela a un usuario en la sala.<br />
+<b>roomdiagonal:(true/false)</b> - Activa/Desactiva el caminar en diagonal.<br />
+<b>point:(punto)</b> - Establece el número de punto para el usuario.<br />
+<b>addpoint:(punto)</b> - Agregar número de punto al usuario.<br />
+<b>removepoint:(punto)</b> - Retirar el número de puntos del usuario.<br />
+<b>ingame:(true/false)</b> - Deshabilita cierta funcionalidad.<br />
+<b>setitemmode:(número)</b> - Défini l'état du mobi déclencheur.<br />
+<b>addpointteam:(punto)</b> - Agregue el número de puntos al equipo del usuario.<br />
+<b>breakwalk:(true/false)</b> - Habilitar/Deshabilitar caminar lento en el usuario.<br />
+<b>pushpull:(true/false)</b> - Habilitar/Deshabilitar push o pull.<br />
+<b>moveto:(true/false)</b> - Habilitar/Deshabilitar mover el usuario.<br />
+<b>reversewalk:(true/false)</b> - Habilitar/Deshabilitar modo de caminar inverso.<br />
+<b>speedwalk:(true/false)</b> - Habilitar/Deshabilitar modo de caminar rápido.<br />
+<b>roomvideo:(idvideeyoutube)</b> - Abre un video a de youtube a toda la sala.<br />
+<b>video:(idvideeyoutube)</b> - Abre un video a de youtube a un usuario.<br />
+<b>configbot:(handitem,rot,enable,sit,lay)</b> - Configurar paramentros del bot.<br />
+</p><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><h3>Lista de Comandos para el SuperWired Condición:</h3><span class="padding-bottom"><br></span>
+<span class="padding-top"><br></span><p>
+<b>handitem:(id)</b> - Si el usuario posee un bebida o comida.<br />
+<b>nothanditem:(id)</b> - Si el usuario no posee un bebida o comida.<br />
+<b>enable:(id)</b> - Si el usuario posee un enable o efecto activo.<br />
+<b>notenable:(id)</b> - Si el usuario no posee un enable o efecto activo.<br />
+<b>username:(usuario)</b> - Si el nombre de usuario coincide.<br />
+<b>notusername:(usuario)</b> - Si el nombre de usuario no coincide.<br />
+<b>transf:</b> - Si esta transforamdo en mascota.<br />
+<b>nottransf:</b> - Si no esta transforamdo en mascota.<br />
+<b>rot:(0 - 7)</b> - Si esta en la rotación correcta.<br />
+<b>notrot:(0 - 7)</b> - Si no esta en la rotación correcta.<br />
+<b>userteam:</b> - Si el usuario posee un equipo.<br />
+<b>usernotteam:</b> - Si el usuario no posee un equipo.<br />
+<b>badge:(badgeid)</b> - Si el usuario posee una X placa.<br />
+<b>notbadge:(badgeid)</b> - Si el usuario no posee una X placa.<br />
+<b>sit:</b> - Si el usuario esta sentado.<br />
+<b>notsit:</b> - Si el usuario no esta sentado.<br />
+<b>lay:</b> - Si el usuario esta acostado.<br />
+<b>notlay:</b> - Si el usuario no esta acostado.<br />
+<b>ingroup:(id)</b> - Si el usuario tiene grupo.<br />
+<b>innotgroup:(id)</b> - Si el usuario no tiene grupo.<br />
+<b>point:(nombre)</b> - Si el usuario tiene x puntos.<br />
+<b>ingame:</b> - Si el usuario está en modo InGame.<br />
+<b>notingame:</b> - Si el usuario no está en modo InGame.<br />
+<b>freeze:</b> - Si el usuario está congelado.<br />
+<b>notfreeze:</b> - Si el usuario no se congela.<br />
+<b>winteam</b> - Si el usuario está en el equipo con más puntos.<br />
+<b>notwinteam</b> - Si el usuario no está en el equipo con más puntos.<br />
+
+<b>teamredcount:(0 - 5)</b> - Si el equipo rojo tiene el número de jugadores.<br />
+<b>teamyellowcount:(0 - 5)</b> - Si el equipo amarillo tiene el número de jugadores.<br />
+<b>teambluecount:(0 - 5)</b> - Si el equipo azul tiene el número de jugadores.<br />
+<b>teamgreencount:(0 - 5)</b> - Si el equipo verde tiene el número de jugadores<br />
+<b>teamrednotcount:(0 - 5)</b> - Si el equipo rojo no tiene la cantidad de jugadores.<br />
+<b>teamyellownotcount:(0 - 5)</b> - Si el equipo amarillo no tiene el número de jugadores.<br />
+<b>teambluenotcount:(0 - 5)</b> - Si el equipo azul no tiene el número de jugadores.<br />
+<b>teamgreennotcount:(0 - 5)</b> - Si el equipo verde no tiene el número de jugadores.<br />
+<b>teamallcount:(0 - 20)</b> - Si el número corresponde al número total de jugadores que tienen un equipo.<br />
+<b>teamallnotcount</b> - Si el número no coincide con el número total de jugadores que poseen un equipo.<br />
+
+<b>itemmode:()</b> - Si el estado del click coincide con el furni.<br />
+<b>itemnotmode:(nombre)</b> - Si el estado del click no coincide con el furni.<br />
+</p><span class="padding-bottom"><br></span>

@@ -20,8 +20,8 @@ stop:
 	@docker compose down
 installUbuntuDeps:
 	wget "https://r.mariadb.com/downloads/mariadb_repo_setup"
- 	chmod +x mariadb_repo_setup
- 	./mariadb_repo_setup --mariadb-server-version="mariadb-10.6"
- 	rm mariadb
- 	apt update
- 	apt install -y libmariadb3 libmariadb-dev
+	chmod +x mariadb_repo_setup
+	./mariadb_repo_setup --mariadb-server-version="mariadb-10.6"
+	rm mariadb
+	apt update
+	apt install -y libmariadb3 libmariadb-dev

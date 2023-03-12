@@ -13,8 +13,7 @@
   font-size: 1.4em;
 }
 .error-page__frank {
-  background: url(/data/img/teaser_frank_looking.6f070e5.png)
-    no-repeat;
+  background: url(/data/img/teaser_frank_looking.6f070e5.png) no-repeat;
   width: 132px;
   height: 115px;
   margin: 0 20px 0 auto;
@@ -10206,10 +10205,8 @@ a.text-dark:hover {
       format("embedded-opentype"),
     url(/data/fonts/fa-brands-400.067595a.woff2) format("woff2"),
     url(/data/fonts/fa-brands-400.b564da8.woff) format("woff"),
-    url(/data/fonts/fa-brands-400.9ec698d.ttf)
-      format("truetype"),
-    url(/data/img/fa-brands-400.9d67fa1.svg#fontawesome)
-      format("svg");
+    url(/data/fonts/fa-brands-400.9ec698d.ttf) format("truetype"),
+    url(/data/img/fa-brands-400.9d67fa1.svg#fontawesome) format("svg");
 }
 .fab {
   font-family: Font Awesome\5 Brands;
@@ -10223,15 +10220,14 @@ a.text-dark:hover {
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url(/data/fonts/fa-solid-900.89e02ba.eot);
+  src: url(https://akiled.org/data/fonts/fa-solid-900.89e02ba.eot);
   src: url(/data/fonts/fa-solid-900.89e02ba.eot?#iefix)
       format("embedded-opentype"),
-    url(/data/fonts/fa-solid-900.55eb2a6.woff2)
+    url(https://akiled.org/data/fonts/fa-solid-900.55eb2a6.woff2)
       format("woff2"),
     url(/data/fonts/fa-solid-900.cdfec5c.woff) format("woff"),
     url(/data/fonts/fa-solid-900.75f38a1.ttf) format("truetype"),
-    url(/data/img/fa-solid-900.0724bb8.svg#fontawesome)
-      format("svg");
+    url(/data/img/fa-solid-900.0724bb8.svg#fontawesome) format("svg");
 }
 .fa,
 .fas {
@@ -10624,7 +10620,7 @@ a.text-dark:hover {
 .client-box__close {
   width: 31px;
   height: 32px;
-  background: url(/data/img/boton-x.png) no-repeat 0 0;
+  background: url(//Akiled.org/data/img/boton-x.png) no-repeat 0 0;
   position: absolute;
   top: 5px;
   right: 7px;
@@ -10633,12 +10629,12 @@ a.text-dark:hover {
 .client-box__close:hover {
   width: 31px;
   height: 32px;
-  background: url(/data/img/boton-x.png) no-repeat 0 0;
+  background: url(//Akiled.org/data/img/boton-x.png) no-repeat 0 0;
 }
 .client-box__close:active {
   width: 31px;
   height: 32px;
-  background: url(/data/img/boton-x.png) no-repeat 0 0;
+  background: url(//Akiled.org/data/img/boton-x.png) no-repeat 0 0;
 }
 .client-box__edit {
   width: 19px;
@@ -10654,16 +10650,14 @@ a.text-dark:hover {
   top: 11px;
   right: 59px;
   height: 20px;
-  background: url(/data/img/edit_hover.2e4984f.png) no-repeat 0
-    0;
+  background: url(/data/img/edit_hover.2e4984f.png) no-repeat 0 0;
 }
 .client-box__edit:active {
   width: 19px;
   top: 11px;
   right: 59px;
   height: 20px;
-  background: url(/data/img/edit_active.d92dc31.png) no-repeat 0
-    0;
+  background: url(/data/img/edit_active.d92dc31.png) no-repeat 0 0;
 }
 .client-box__form {
   padding: 10px 17px;
@@ -10791,18 +10785,18 @@ a.text-dark:hover {
   transition: background-color 0.2s;
 }
 .client-btn2 {
-     display: table;
-    font-weight: 700;
-    white-space: nowrap;
-    border-radius: 15px;
-    padding: 10px 20px;
-    margin-left: 461px;
-    color: #fff;
-    margin-top: 234px;
-    font-size: 15px;
-    cursor: pointer;
-    box-shadow: 0 3px 0 1px rgb(0 0 0 / 30%);
-    background-image: linear-gradient(#2046cfd9 50%,#3456a9 0);
+  display: table;
+  font-weight: 700;
+  white-space: nowrap;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-left: 461px;
+  color: #fff;
+  margin-top: 234px;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 3px 0 1px rgb(0 0 0 / 30%);
+  background-image: linear-gradient(#2046cfd9 50%, #3456a9 0);
 }
 .client-btn,
 .client-btn:hover {
@@ -10810,7 +10804,7 @@ a.text-dark:hover {
   text-decoration: none;
 }
 .client-btn:hover {
- background-image: linear-gradient(#fbaf54 50%, #9d5a39 0);
+  background-image: linear-gradient(#fbaf54 50%, #9d5a39 0);
 }
 .client-btn:active {
   background-image: linear-gradient(#d2d2d2 50%, #989898 0);

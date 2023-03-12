@@ -318,7 +318,7 @@
   right: 10px;
   width: 32px;
   height: 32px;
-  background: url(//Akiled.org/data/img/boton-x.png) no-repeat;
+  background: url(/data/img/boton-x.png) no-repeat;
   border: none;
   cursor: pointer;
   z-index: 999999999999;

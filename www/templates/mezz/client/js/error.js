@@ -1,3 +1,3 @@
- window.NGHFlashAPI = {
-                loaderProgress: function() {}
- }
+window.NGHFlashAPI = {
+  loaderProgress: function () {},
+};

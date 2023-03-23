@@ -1,1 +1,0 @@
-pm2 start websockify.js -- 0.0.0.0:2096 -- 127.0.0.1:30000 --name websockify

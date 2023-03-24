@@ -1,6 +1,6 @@
 ﻿<?php 
 $config = array();
-$config['ip'] = "delphos.akitsune.dev";
+$config['ip'] = $_ENV['HOST'];
 $config['port'] = "30000";
 $config['AkiledUrl'] = $_ENV['WEB_URL'];
 $config['Akiledswfs'] = $_ENV['WEB_URL'].'/swfs';

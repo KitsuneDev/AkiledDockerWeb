@@ -1,6 +1,6 @@
 set windows-shell := ["powershell.exe", "-NoLogo", "-Command"]
 default:
- 	@just --list
+ @just --list
 update:
 	@git pull
 setup:

@@ -1,6 +1,8 @@
 set windows-shell := ["powershell.exe", "-NoLogo", "-Command"]
 default:
-  @just --list
+ 	@just --list
+update:
+	@git pull
 setup:
 	python3 -m pip install -r tools/requirements.txt
 	python3 tools/envFile.py

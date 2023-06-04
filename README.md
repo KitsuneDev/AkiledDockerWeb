@@ -10,7 +10,7 @@
 ## Installation Instructions
 
 1. Clone this repository - it might take a _very_ long time:
-``git clone --recursive https://github.com/GabrielTK/AkiledDocker.git``
+``git clone --recursive https://github.com/Dark25/AkiledDockerWeb.git``
 2. Initiate the setup procedure: `just setup`
 3. Create a User, and, in PhpMyAdmin, set it's rank to `25`
    1. Alternatively, run `just createUser` to create a new user automatically. This does require the MariaDB C Connector.

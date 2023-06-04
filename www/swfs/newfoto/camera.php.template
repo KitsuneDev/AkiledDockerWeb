@@ -16,7 +16,7 @@ if (isset($data)) {
             output([
                 "status" => true,
                 "preview" => "thumbnail/" . $roomID . ".png",
-                "full_preview" => "http://mezz1.akiled.org/swfs/newfoto/thumbnail/" . $roomID . ".png"
+                "full_preview" => "http://{{ .Env.WEB_HOSTNAME }}/swfs/newfoto/thumbnail/" . $roomID . ".png"
             ]);
             return;
         }
@@ -32,7 +32,7 @@ if (isset($data)) {
             output([
                 "status" => true,
                 "preview" => "photos/" . $encrypted . ".png",
-                "full_preview" => "http://mezz1.akiled.org/swfs/newfoto/photos/" . $encrypted . ".png",
+                "full_preview" => "http://{{ .Env.WEB_HOSTNAME }}/swfs/newfoto/photos/" . $encrypted . ".png",
                 "encrypted_id" => $encrypted,
                 "timestamp" => $timestamp,
                 "room_id" => $roomID

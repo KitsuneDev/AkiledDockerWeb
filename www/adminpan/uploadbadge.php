@@ -30,11 +30,11 @@ admin::CheckRank(13);
         if (in_array($file_ext, $allowed_file_types) && ($filesize < 200000)) {
             // Rename file
             $newfilename = $codigo . $file_ext;
-            if (file_exists("../../swfs/c_images/album1584/" . $newfilename)) {
+            if (file_exists("../swfs/c_images/album1584/" . $newfilename)) {
                 // file already exists error
                 echo "Alparecer ya existe una placa con el codigo generado";
             } else {
-                move_uploaded_file($_FILES["file"]["tmp_name"], "../../swfs/c_images/album1584/" . $newfilename);
+                move_uploaded_file($_FILES["file"]["tmp_name"], "../swfs/c_images/album1584/" . $newfilename);
                 echo "Tu codigo de placa es: " . $codigo;
                 $postpublics = $dbh->prepare("
 					INSERT INTO swf_badges(clave,name,description,autor)
@@ -49,7 +49,7 @@ admin::CheckRank(13);
                 $postpublics->bindParam(':description', $_POST['desc']);
                 $postpublics->bindParam(':autor', User::userData('username'));
                 $postpublics->execute();
-                $myFile = "../../swfs/gamedata/texts.txt";
+                $myFile = "../swfs/gamedata/texts.txt";
                 $fh = fopen($myFile, 'a') or die("File not found.");
                 $strings = "badge_name_" . $codigo . "=" . $_POST['name'] . "";
                 $string = "badge_desc_" . $codigo . "=" . $_POST['desc'] . "";
@@ -69,7 +69,7 @@ admin::CheckRank(13);
             echo "La placa que estas intentando cargar es demasiado grande.";
         } else {
             // file type error
-            echo "Solo estos tipos de archivos están permitidos para cargar: " . implode(', ', $allowed_file_types);
+            echo "Solo estos tipos de archivos est n permitidos para cargar: " . implode(', ', $allowed_file_types);
             unlink($_FILES["file"]["tmp_name"]);
         }
     }
@@ -91,7 +91,7 @@ admin::CheckRank(13);
 
                                 </div>
                                 <div class="form-group">
-                                    <label for="icon_prefix">Descripción de la placa</label>
+                                    <label for="icon_prefix">Descripci n de la placa</label>
                                     <input id="icon_prefix" type="text" name="desc" class="form-control" id="exampleInputUsername1">
 
                                 </div>

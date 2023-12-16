@@ -1,13 +1,19 @@
 set windows-shell := ["powershell.exe", "-NoLogo", "-Command"]
 default:
-  @just --list
+ @just --list
+update:
+	@git pull
 setup:
 	python3 -m pip install -r tools/requirements.txt
 	python3 tools/envFile.py
 	@echo "Setup is done."
-	@echo "From now on, use the start command:"
+	@echo "From now on, use the start command for start all services:"
 	@echo "  just start"
-	@echo "and the stop command:"
+	@echo "From now on, use the web for restart web server:"
+	@echo "  just web"
+	@echo "From now on, use the emu for restart emulator server:"
+	@echo "  just emu"
+	@echo "and the stop command for stop all services:"
 	@echo "  just stop"
 createUser:
 	python3 -m pip install mariadb
@@ -16,6 +22,13 @@ createUser:
 	docker compose down
 start:
 	@docker compose up -d
+web:
+	@docker compose stop web
+	@docker compose start web
+emu:
+	@docker compose stop game
+	@docker compose start game
+
 stop:
 	@docker compose down
 installUbuntuDeps:

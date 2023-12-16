@@ -15,6 +15,7 @@ services:
     command: ["dockerize",
               "-template", "/etc/nginx/nginx.conf.template:/etc/nginx/nginx.conf",
               "-template", "/usr/share/nginx/html/system/brain-config.php.template:/usr/share/nginx/html/system/brain-config.php",
+              "-template", "/usr/share/nginx/html/swfs/newfoto/camera.php.template:/usr/share/nginx/html/swfs/newfoto/camera.php",
               "-template", "/usr/share/nginx/html/swfs/gamedata/vars.txt.template:/usr/share/nginx/html/swfs/gamedata/vars.txt",
               "-template", "/usr/share/nginx/html/swfs/nitro/ui-config.json.template:/usr/share/nginx/html/swfs/nitro/ui-config.json",
               "-template", "/usr/share/nginx/html/swfs/nitro/renderer-config.json.template:/usr/share/nginx/html/swfs/nitro/renderer-config.json",

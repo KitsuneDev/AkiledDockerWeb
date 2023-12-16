@@ -88,6 +88,8 @@
                     <a href="/adminpan/dash" class="page-content-nav-item-text"><?= $lang["Ghk"]; ?></a>
                 </div>
             <?php } ?>
+           
+            <?php include "../selectLanguage/relative.php"; ?>
             <dark-mode-toggle
     id="dark-mode-toggle-1"
     appearance="toggle"
@@ -95,6 +97,9 @@
     light="Light"
     permanent="true"
   style="margin-top: 1rem; color:slategray"></dark-mode-toggle>
+
+
+
     </div>
 </div>
 <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>

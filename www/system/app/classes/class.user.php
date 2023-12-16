@@ -550,7 +550,7 @@ class User
 																		$insertUserSession->bindParam(':date', strtotime('now'));
 																		$insertUserSession->bindParam(':browser', $_SERVER['HTTP_USER_AGENT']);
 																		$insertUserSession->execute();
-																		if(empty($_POST['dbg'])) {header('Location: /'.$redirect);};
+																		if(empty($_POST['dbg'])) {header('Location: ' . $config['hotelUrl'] . $redirect);};
 																		return;
 																	}
 																	//User referrer//
@@ -572,7 +572,7 @@ class User
 																		$insertUserSession->bindParam(':date', strtotime('now'));
 																		$insertUserSession->bindParam(':browser', $_SERVER['HTTP_USER_AGENT']);
 																		$insertUserSession->execute();
-                                                                        if(empty($_POST['dbg'])) {header('Location: /'.$redirect);};
+                                                                        if(empty($_POST['dbg'])) {header('Location: ' . $config['hotelUrl'] . $redirect);};
 																		return;
 																	}
 																}
@@ -855,7 +855,7 @@ class User
 			$stmt->bindParam(':codeemo', $emojipr);
 			$stmt->bindParam(':id', User::userData('id'));
 			$stmt->execute();
-			return Html::errorSucces("Emoji cambiado correctamente a " . $_POST['emojiuser'] . " ¡Reinicia el cliente para ver los cambios!");
+			return Html::errorSucces("Emoji cambiado correctamente a " . $_POST['emojiuser'] . " Â¡Reinicia el cliente para ver los cambios!");
 		}
 	}
 
@@ -913,12 +913,12 @@ class User
 					$stmt2->bindParam(':problem', $_POST['problem']);
 					$stmt2->bindParam(':time', strtotime('now'));
 					$stmt2->execute();
-					return Html::errorSucces("Su mensaje ha sido enviado con éxito! Su estado será respondido y actualizado en breve.");
+					return Html::errorSucces("Su mensaje ha sido enviado con Ã©xito! Su estado serÃ¡ respondido y actualizado en breve.");
 				} else {
 					return Html::errornew("Necesitas ingresar el problema");
 				}
 			} else {
-				return Html::errornew("Necesitas ingresar un título");
+				return Html::errornew("Necesitas ingresar un tÃ­tulo");
 			}
 		}
 	}

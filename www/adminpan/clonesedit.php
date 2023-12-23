@@ -113,7 +113,7 @@ admin::CheckRank(13);
 			?>
 		<tr>
     <td>ID: <?php echo $getUsersDev['id']; ?></td>
-    <td>	<img class="circle"  src="<?php echo $config['look']; ?><?php echo $getUsersDev['look']; ?>&direction=3&head_direction=3&gesture=none&action=none&size=n&headonly=1"></td>
+    <td>	<img class="circle"  src="<?php echo $config['lookUrl']; ?><?php echo $getUsersDev['look']; ?>&direction=3&head_direction=3&gesture=none&action=none&size=n&headonly=1"></td>
     <td>	<span class="text-info"><?php echo $getUsersDev['username']; ?> </span></td>
         <td>	<p><?php echo $getUsersDev['motto']; ?>
 				</p><td>

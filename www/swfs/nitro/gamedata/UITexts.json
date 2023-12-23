@@ -46,5 +46,6 @@
     "extendedprofile.last.login": "Last Login:",
     "extendedprofile.achievementscore": "Achievement Score:",
     "extendedprofile.friends.count": "Friends:",
-    "widget.memenu.settings.title": "Settings"
+    "widget.memenu.settings.title": "Settings",
+    "halloffame.title": "Hall of Fame" 
 }

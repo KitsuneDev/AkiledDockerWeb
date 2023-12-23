@@ -28,6 +28,11 @@ web:
 emu:
 	@docker compose stop game
 	@docker compose start game
+restart:
+	@docker compose stop
+	@docker system prune -f
+	@docker compose build
+	@docker compose up -d
 
 stop:
 	@docker compose down

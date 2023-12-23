@@ -53,7 +53,8 @@ admin::CheckRank(10);
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputUsername1">Tipo de baneo, ¿Ip o por nombre de usuario?</label>
+                                    <label for="exampleInputUsername1">Tipo de baneo, ¿Ip o por nombre de
+                                        usuario?</label>
                                     <select name="type" class="form-control">
                                         <option value="" disabled selected>Tipo:</option>
                                         <option value="0">Banear por nombre</option>
@@ -63,14 +64,16 @@ admin::CheckRank(10);
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputUsername1">Razón</label>
-                                    <textarea id="textarea1" class="form-control" name="reason" data-length="250"></textarea>
+                                    <textarea id="textarea1" class="form-control" name="reason"
+                                        data-length="250"></textarea>
                                 </div>
 
 
 
                                 <input type='hidden' id="link" value="">
                                 <input type="hidden" id="username" value="Seguridad P&H: BANS">
-                                <input type="hidden" id="avatar" value="https://cdn.discordapp.com/icons/770010766379581461/c8bb8c81b6cb95d68756c9e547556ff4.png?size=128">
+                                <input type="hidden" id="avatar"
+                                    value="https://cdn.discordapp.com/icons/770010766379581461/c8bb8c81b6cb95d68756c9e547556ff4.png?size=128">
                                 <input type="hidden" id="content" value="
 		
 		<a:emoji_2:771042373571575858> <?php echo User::userData('username'); ?>: ha colocado un baneo a un usuario desde el HK! <a:emoji_2:771042373571575858>
@@ -81,7 +84,8 @@ admin::CheckRank(10);
 ">
 
 
-                                <button class="btn btn-primary mr-2" id="btn" type="submit" name="postban" name="action">Banear usuario
+                                <button class="btn btn-primary mr-2" id="btn" type="submit" name="postban"
+                                    name="action">Banear usuario
                                 </button>
 
                         </div>

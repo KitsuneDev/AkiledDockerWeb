@@ -37,7 +37,7 @@ admin::CheckRank(19);
                                 admin::UpdateTareas();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditTareas("id"); ?>" name="naam" class="form-control">
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">ID de Tarea</label>
                                     <input style="color: black;" type="number" value="<?php echo admin::EditTareas("id"); ?>" name="id" class="form-control" id="exampleInputName1" placeholder="ID del pagina" Readonly>
@@ -46,7 +46,7 @@ admin::CheckRank(19);
                                     <label for="exampleInputEmail3">Nombre de Tarea:</label>
                                     <input type="text" value="<?php echo admin::EditTareas("tarea"); ?>" name="tarea" class="form-control">
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditTareas("id"); ?>)
  
 
@@ -66,36 +66,43 @@ admin::CheckRank(19);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-				  
-                    <?php echo admin::EditTareas("tarea"); ?>
-                    </p>
-					
-                    <div class="table-responsive " >
-                      <table class="table table-hover" >
-                      <tbody>
-                      <tr>
-                           <td>	<p > <b class="text-info">ID del Tarea: </b><?php echo admin::EditTareas("id"); ?></p> </td></tr>
-                        <tr>  <td><p><b class="text-warning">Nombre de Tarea:</b> <?php echo admin::EditTareas("tarea"); ?></p> </td>  </tr>
-						<br />
+                    <div class="card">
+                        <div class="card-body">
+
+                            <?php echo admin::EditTareas("tarea"); ?>
+                            </p>
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p> <b class="text-info">ID del Tarea: </b><?php echo admin::EditTareas("id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Nombre de Tarea:</b> <?php echo admin::EditTareas("tarea"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
 
 
-                      
-                      
-                        
-                        </tbody>
-                      </table>
-                        
-                        
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

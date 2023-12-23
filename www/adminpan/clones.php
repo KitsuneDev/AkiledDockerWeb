@@ -61,7 +61,8 @@
 
 
                         <tr>
-                          <td><img src="<?= $config['lookUrl']; ?><?= $users['look']; ?>&direction=3&head_direction=2&gesture=sml&size=s&img_format=gif&headonly=1" /><a href="/adminpan/gebrank/<?php echo $users['username']; ?>"><?php echo $users['username']; ?></a></td>
+                          <td><img src="<?= $config['lookUrl']; ?><?= $users['look']; ?>&direction=3&head_direction=2&gesture=sml&size=s&img_format=gif&headonly=1" /><a href="/adminpan/gebrank/<?php echo $users['username']; ?>"><?php echo $users['username']; ?></a>
+                          </td>
                         </tr>
 
                       <?php } ?>
@@ -108,7 +109,8 @@
                   ?>
                     <tr>
                       <td>ID: <?php echo $getUsersDev['id']; ?></td>
-                      <td> <img class="circle" src="<?php echo $config['lookUrl']; ?><?php echo $getUsersDev['look']; ?>&direction=3&head_direction=3&gesture=none&action=none&size=n&headonly=1"></td>
+                      <td> <img class="circle" src="<?php echo $config['lookUrl']; ?><?php echo $getUsersDev['look']; ?>&direction=3&head_direction=3&gesture=none&action=none&size=n&headonly=1">
+                      </td>
                       <td> <span class="text-info"><?php echo $getUsersDev['username']; ?> </span></td>
                       <td>
                         <p><?php echo $getUsersDev['motto']; ?>

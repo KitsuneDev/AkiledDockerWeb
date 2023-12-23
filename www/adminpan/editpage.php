@@ -37,7 +37,7 @@ admin::CheckRank(13);
                                 admin::UpdatePage();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditPage("id"); ?>" name="naam" class="form-control">
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">ID da Pàgina</label>
                                     <input style="color: black;" type="number" value="<?php echo admin::EditPage("id"); ?>" name="id" class="form-control" id="exampleInputName1" placeholder="ID del pagina" Readonly>
@@ -50,19 +50,19 @@ admin::CheckRank(13);
                                     <label for="exampleInputPassword4">Nombre del pagina?</label>
                                     <input type="text" value="<?php echo admin::EditPage("caption"); ?>" name="caption" class="form-control" autocomplete="off">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Icon del pagina:</label>
                                     <input type="text" value="<?php echo admin::EditPage("icon_image"); ?>" name="icon_image" class="form-control">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Rango mínimo para ver esta página:</label>
                                     <input type="text" value="<?php echo admin::EditPage("min_rank"); ?>" name="min_rank" class="form-control">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Orden de la página:</label>
                                     <input type="text" value="<?php echo admin::EditPage("order_num"); ?>" name="order_num" class="form-control">
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditPage("id"); ?>)
  
 
@@ -82,36 +82,43 @@ admin::CheckRank(13);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-				  <img class="circle" style="width: 17px; height: 17px;" src="<?php echo $config["pathswf"]; ?>/c_images/catalogue/icon_<?php echo admin::EditPage("icon_image"); ?>.png">
-                    <?php echo admin::EditPage("caption"); ?>
-                    </p>
-					
-                    <div class="table-responsive " >
-                      <table class="table table-hover" >
-                      <tbody>
-                      <tr>
-                           <td>	<p > <b class="text-info">ID del página: </b><?php echo admin::EditPage("id"); ?></p> </td></tr>
-                        <tr>  <td><p><b class="text-warning">Rango minimo:</b> <?php echo admin::EditPage("min_rank"); ?></p> </td>  </tr>
-						<br />
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="circle" style="width: 17px; height: 17px;" src="<?php echo $config["pathswf"]; ?>/c_images/catalogue/icon_<?php echo admin::EditPage("icon_image"); ?>.png">
+                            <?php echo admin::EditPage("caption"); ?>
+                            </p>
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p> <b class="text-info">ID del página: </b><?php echo admin::EditPage("id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Rango minimo:</b> <?php echo admin::EditPage("min_rank"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
 
 
-                      
-                      
-                        
-                        </tbody>
-                      </table>
-                        
-                        
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

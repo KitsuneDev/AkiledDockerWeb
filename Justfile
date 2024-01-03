@@ -13,6 +13,8 @@ setup:
 	@echo "  just web"
 	@echo "From now on, use the emu for restart emulator server:"
 	@echo "  just emu"
+	@echo "From now on, use the imager for restart imager server:"
+	@echo "  just imager"
 	@echo "and the stop command for stop all services:"
 	@echo "  just stop"
 createUser:
@@ -28,11 +30,17 @@ web:
 emu:
 	@docker compose stop game
 	@docker compose start game
+imager:
+	@docker compose stop imager
+	@docker compose start imager
 restart:
 	@docker compose stop
 	@docker system prune -f
 	@docker compose build
 	@docker compose up -d
+	@sleep 5
+	@docker compose restart imager
+
 
 stop:
 	@docker compose down

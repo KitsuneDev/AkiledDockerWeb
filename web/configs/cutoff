@@ -28,6 +28,7 @@ server {
 				log_not_found off; 
 		}
 
+  
 
 		## Tools are now served from include/tools/
 		location ~ ^/tools/.*\.php$ {					
@@ -79,6 +80,9 @@ server {
 	        }
 	 
  location / {
+
+
+
 	rewrite ^/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=$1;
     rewrite ^/news/edit/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=editnews&news=$1;
     rewrite ^/publics/delete/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=publics&delete=$1;
@@ -148,6 +152,9 @@ server {
     rewrite api/getclient /templates/habblum/getclientconfigtest.php;
     rewrite api/getssoticketweb /templates/habblum/getssoticketweb.php;
     rewrite audios/audio /audios/audio.php;
+     
+        
+        
 }
 
 }

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "AkiledEmulator/2.35.0": {
+      "AkiledEmulator/2.9.55": {
         "dependencies": {
           "MediReport.MySql.Data": "8.1.0",
           "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": "0.4.346202",
@@ -1258,7 +1258,7 @@
     }
   },
   "libraries": {
-    "AkiledEmulator/2.35.0": {
+    "AkiledEmulator/2.9.55": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

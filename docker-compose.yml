@@ -53,7 +53,7 @@ services:
       - 30000:30000
     volumes:
       - ./gameEmu/templates/configuration.ini.template:/app/Settings/configuration.ini.template:ro
-      - ./logs/game:/app/logs
+      - ./logs/game:/app/Logs
     command: ["dockerize",
               "-template", "/app/Settings/configuration.ini.template:/app/Settings/configuration.ini",
               "dotnet", "AkiledEmulator.dll"]

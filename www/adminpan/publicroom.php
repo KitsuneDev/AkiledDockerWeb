@@ -62,9 +62,9 @@ admin::CheckRank(17);
 
 
                 <?php
-					if (User::userData('rank') > '10'){
-				?>
-		<div class="col-md-8 grid-margin stretch-card">
+                if (User::userData('rank') > '10') {
+                ?>
+                    <div class="col-md-8 grid-margin stretch-card">
                         <div class="card">
                             <div class="card-body">
                                 <h3 class="card-title">Salas Publicas:</h3>
@@ -72,33 +72,32 @@ admin::CheckRank(17);
                                 <?php admin::DeletePublicRoom(); ?>
                                 <div class="table-responsive " style=" max-height: 400px; overflow-y: scroll">
                                     <table class="table table-hover">
-					<tbody>
-						<?php
-							$getrooms = $dbh->prepare("SELECT * FROM navigator_publics ORDER BY room_id DESC");
-							$getrooms->execute();
-								
-								while($room = $getrooms->fetch())
-								{
-									echo'<tr>
+                                        <tbody>
+                                            <?php
+                                            $getrooms = $dbh->prepare("SELECT * FROM navigator_publics ORDER BY room_id DESC");
+                                            $getrooms->execute();
+
+                                            while ($room = $getrooms->fetch()) {
+                                                echo '<tr>
 									
-									<td>'.$room["room_id"].'</td>
-									<td>'.$room["image_url"].'</td>
-									<td>'.$room["order_num"].'</td>
-									<td>'.$room["enable"].'</td>
-									<td>'.$room["langue"].'</td>
-									<td><a type="button" class="btn btn-danger" href='.$config['hotelUrl'].'/adminpan/publicroom/delete/'.$room["room_id"].'>Elimnar</center></a></td>
+									<td>' . $room["room_id"] . '</td>
+									<td>' . $room["image_url"] . '</td>
+									<td>' . $room["order_num"] . '</td>
+									<td>' . $room["enable"] . '</td>
+									<td>' . $room["langue"] . '</td>
+									<td><a type="button" class="btn btn-danger" href=' . $config['hotelUrl'] . '/adminpan/publicroom/delete/' . $room["room_id"] . '>Elimnar</center></a></td>
 									</tr>';
-								}
-							?>
-					</tbody>
-				</table>
-				</div>
-			</div>
-			</div>
-			<?php } ?>
-			</div>
+                                            }
+                                            ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                    </div>
             </div>
-	</div>								
+        </div>
 
 
 

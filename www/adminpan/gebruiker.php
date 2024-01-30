@@ -36,26 +36,36 @@ admin::CheckRank(13);
                                 admin::EditUser("username");
                                 admin::UpdateUser();
                                 ?>
-                                <input id="icon_prefix" type="hidden" value="<?php echo admin::EditUser("username"); ?>" name="naam" class="form-control">
+                                <input id="icon_prefix" type="hidden" value="<?php echo admin::EditUser("username"); ?>"
+                                    name="naam" class="form-control">
                                 <div class="form-group">
                                     <label for="exampleInputName1">Correo electronico</label>
-                                    <input type="email" value="<?php echo admin::EditUser("mail"); ?>" name="mail" class="form-control" autocomplete="off" onkeypress='return event.charCode >= 48 && event.charCode <= 57' id="exampleInputName1" placeholder="Correo electronico">
+                                    <input type="email" value="<?php echo admin::EditUser("mail"); ?>" name="mail"
+                                        class="form-control" autocomplete="off"
+                                        onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+                                        id="exampleInputName1" placeholder="Correo electronico">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail3">Misión</label>
-                                    <input type="text" value="<?php echo admin::EditUser("motto"); ?>" name="motto" class="form-control" autocomplete="off" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+                                    <input type="text" value="<?php echo admin::EditUser("motto"); ?>" name="motto"
+                                        class="form-control" autocomplete="off"
+                                        onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Créditos</label>
-                                    <input type="number" value="<?php echo admin::EditUser("credits"); ?>" name="credits" class="form-control" autocomplete="off" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+                                    <input type="number" value="<?php echo admin::EditUser("credits"); ?>"
+                                        name="credits" class="form-control" autocomplete="off"
+                                        onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Esmeraldas</label>
-                                    <input type="number" value="<?php echo admin::EditUser("activity_points"); ?>" name="activity_points" class="form-control" autocomplete="off">
+                                    <input type="number" value="<?php echo admin::EditUser("activity_points"); ?>"
+                                        name="activity_points" class="form-control" autocomplete="off">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Planetas</label>
-                                    <input type="number" value="<?php echo admin::EditUser("vip_points"); ?>" name="vip_points" class="form-control" autocomplete="off">
+                                    <input type="number" value="<?php echo admin::EditUser("vip_points"); ?>"
+                                        name="vip_points" class="form-control" autocomplete="off">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Staff Oculto</label>
@@ -67,9 +77,11 @@ admin::CheckRank(13);
                                 </div>
 
 
-                                <input type='hidden' id="link" value="https://discord.com/api/webhooks/797863689163767818/ZdPIM6Bzw9ILKv3mZWSes8ss6JvhIsooc2fy0d6Lje9vVKpcLBGO8plxGD0YSB54kUQi">
+                                <input type='hidden' id="link"
+                                    value="https://discord.com/api/webhooks/797863689163767818/ZdPIM6Bzw9ILKv3mZWSes8ss6JvhIsooc2fy0d6Lje9vVKpcLBGO8plxGD0YSB54kUQi">
                                 <input type="hidden" id="username" value="Seguridad P&H: Editor Usuarios">
-                                <input type="hidden" id="avatar" value="https://cdn.discordapp.com/icons/770010766379581461/c8bb8c81b6cb95d68756c9e547556ff4.png?size=128">
+                                <input type="hidden" id="avatar"
+                                    value="https://cdn.discordapp.com/icons/770010766379581461/c8bb8c81b6cb95d68756c9e547556ff4.png?size=128">
                                 <input type="hidden" id="content" value=":warning: <?php echo User::userData('username'); ?>: ha editado informacion de (<?php echo admin::EditUser("username"); ?>)
  
                                 Mision: <?php echo admin::EditUser("motto"); ?> --- :bookmark_tabs:
@@ -85,7 +97,8 @@ admin::CheckRank(13);
                                         ">
 
 
-                                <button id="btn" name="update" type="submit" class="btn btn-primary mr-2">Guardar</button>
+                                <button id="btn" name="update" type="submit"
+                                    class="btn btn-primary mr-2">Guardar</button>
                             </form>
                         </div>
                     </div>
@@ -95,42 +108,68 @@ admin::CheckRank(13);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Perfil de <?php echo admin::EditUser("username"); ?> </h4>
-                    <p class="card-description">Pequeña informacion sobre <?php echo admin::EditUser("username"); ?> </p>
-                    </p>
-                    <center>
-				
-					<img  src="<?php echo $config['lookUrl']; ?><?php echo admin::EditUser("look"); ?>&direction=3&head_direction=3&size=l&gesture=sml">
-                    </center>
-                    <div class="table-responsive " >
-                      <table class="table table-hover" >
-                      <tbody>
-                      <tr>
-                           <td>	<p > <b class="text-info">Misión: </b>"<?php echo admin::EditUser("motto"); ?>"</p> </td></tr>
-                        <tr> <td><p><b class="text-success">Ultima conexion:</b> <?php echo fecha_dat(admin::EditUser('last_online')); ?></p> </td>  </tr>
-                        <tr><td><p><b class="text-danger">Creditos:</b> <?php echo admin::EditUser("credits"); ?></p> </td>  </tr>
-                        <tr>  <td><p><b class="text-warning">Esmeraldas:</b> <?php echo admin::EditUser("activity_points"); ?></p> </td>  </tr>
-                        <tr><td><p><b class="text-warning">Planetas:</b> <?php echo admin::EditUser("vip_points"); ?> </p> </td>  </tr>
-						<br />
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Perfil de <?php echo admin::EditUser("username"); ?> </h4>
+                            <p class="card-description">Pequeña informacion sobre
+                                <?php echo admin::EditUser("username"); ?> </p>
+                            </p>
+                            <center>
+
+                                <img
+                                    src="<?php echo $config['lookUrl']; ?><?php echo admin::EditUser("look"); ?>&direction=3&head_direction=3&size=l&gesture=sml">
+                            </center>
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p> <b class="text-info">Misión:
+                                                    </b>"<?php echo admin::EditUser("motto"); ?>"</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-success">Ultima conexion:</b>
+                                                    <?php echo fecha_dat(admin::EditUser('last_online')); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-danger">Creditos:</b>
+                                                    <?php echo admin::EditUser("credits"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Esmeraldas:</b>
+                                                    <?php echo admin::EditUser("activity_points"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Planetas:</b>
+                                                    <?php echo admin::EditUser("vip_points"); ?> </p>
+                                            </td>
+                                        </tr>
+                                        <br />
 
 
-                      
-                      
-                        
-                        </tbody>
-                      </table>
-                        
-                        
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

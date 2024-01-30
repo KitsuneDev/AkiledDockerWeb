@@ -37,7 +37,7 @@ admin::CheckRank(13);
                                 admin::UpdateItem();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditItem("id"); ?>" name="naam" class="form-control">
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">ID da Pàgina</label>
                                     <input style="color: black;" type="number" value="<?php echo admin::EditItem("page_id"); ?>" name="page_id" class="form-control" id="exampleInputName1" placeholder="Correo electronico" Readonly>
@@ -50,7 +50,7 @@ admin::CheckRank(13);
                                     <label for="exampleInputPassword4">Esmeraldas</label>
                                     <input type="number" value="<?php echo admin::EditItem("cost_diamonds"); ?>" name="cost_diamonds" class="form-control" autocomplete="off">
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditItem("catalog_name"); ?>)
  
                                 ID de página: <?php echo admin::EditItem("page_id"); ?> --- :bookmark_tabs:
@@ -72,35 +72,42 @@ admin::CheckRank(13);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Nombre del Mueble: <?php echo admin::EditItem("catalog_name"); ?> </h4>
-                    </p>
-					
-                    <div class="table-responsive " >
-                      <table class="table table-hover" >
-                      <tbody>
-                      <tr>
-                           <td>	<p > <b class="text-info">ID de página: </b><?php echo admin::EditItem("page_id"); ?></p> </td></tr>
-                        <tr>  <td><p><b class="text-warning">Esmeraldas:</b> <?php echo admin::EditItem("cost_diamonds"); ?></p> </td>  </tr>
-						<br />
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Nombre del Mueble: <?php echo admin::EditItem("catalog_name"); ?> </h4>
+                            </p>
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p> <b class="text-info">ID de página: </b><?php echo admin::EditItem("page_id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Esmeraldas:</b> <?php echo admin::EditItem("cost_diamonds"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
 
 
-                      
-                      
-                        
-                        </tbody>
-                      </table>
-                        
-                        
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

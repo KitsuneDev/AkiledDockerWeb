@@ -46,5 +46,17 @@
     "extendedprofile.last.login": "Last Login:",
     "extendedprofile.achievementscore": "Achievement Score:",
     "extendedprofile.friends.count": "Friends:",
-    "widget.memenu.settings.title": "Settings"
+    "widget.memenu.settings.title": "Settings",
+    "halloffame.title": "Hall of Fame",
+    "builder.tools.header": "Herramienta Builder",
+    "builder.tools.autofloor": "Autofloor",
+    "builder.tools.maxfloor": "Maxfloor",
+    "builder.tools.reload": "Reload",
+    "builder.tools.change.altura": "Cambiar altura",
+    "builder.tools.reset.altura": "Restablecer altura",
+    "builder.tools.change.rotacion": "Cambiar rotación",
+    "builder.tools.reset.rotacion": "Restablecer rotación",
+    "builder.tools.change.estado": "Cambiar estado",
+    "builder.tools.reset.estado": "Restablecer estado"
+
 }

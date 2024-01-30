@@ -35,48 +35,65 @@ admin::CheckRank(19);
                                 admin::EditHappyHour("id");
                                 admin::UpdateHappyHour();
                                 ?>
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">Credits</label>
-                                    <input style="color: white;" type="number" value="<?php echo admin::EditHappyHour("credits"); ?>" name="credits" class="form-control" id="exampleInputName1" placeholder="ID del pagina">
+                                    <input style="color: white;" type="number"
+                                        value="<?php echo admin::EditHappyHour("credits"); ?>" name="credits"
+                                        class="form-control" id="exampleInputName1" placeholder="ID del pagina">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail3">Duckets</label>
-                                    <input style="color: white;" type="text" value="<?php echo admin::EditHappyHour("duckets"); ?>" name="duckets" class="form-control">
+                                    <input style="color: white;" type="text"
+                                        value="<?php echo admin::EditHappyHour("duckets"); ?>" name="duckets"
+                                        class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Diamantes</label>
-                                    <input style="color: white;" style="color: white;" type="text" value="<?php echo admin::EditHappyHour("diamantes"); ?>" name="diamantes" class="form-control" autocomplete="off">
+                                    <input style="color: white;" style="color: white;" type="text"
+                                        value="<?php echo admin::EditHappyHour("diamantes"); ?>" name="diamantes"
+                                        class="form-control" autocomplete="off">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Dolares</label>
-                                    <input style="color: white;" type="text" value="<?php echo admin::EditHappyHour("dolares"); ?>" name="dolares" class="form-control">
+                                    <input style="color: white;" type="text"
+                                        value="<?php echo admin::EditHappyHour("dolares"); ?>" name="dolares"
+                                        class="form-control">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Moneda 1:</label>
-                                    <input style="color: white;" type="text" value="<?php echo admin::EditHappyHour("moneda1"); ?>" name="moneda1" class="form-control">
-                                </div>
-								<div class="form-group">
-                                    <label for="exampleInputEmail3">Moneda 2:</label>
-                                    <input style="color: white;" type="text" value="<?php echo admin::EditHappyHour("moneda2"); ?>" name="moneda2" class="form-control">
+                                    <input style="color: white;" type="text"
+                                        value="<?php echo admin::EditHappyHour("moneda1"); ?>" name="moneda1"
+                                        class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail3">Moneda 2:</label>
-                                    <input style="color: white;" type="text" value="<?php echo admin::EditHappyHour("moneda3"); ?>" name="moneda3" class="form-control">
+                                    <input style="color: white;" type="text"
+                                        value="<?php echo admin::EditHappyHour("moneda2"); ?>" name="moneda2"
+                                        class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail3">Moneda 2:</label>
-                                    <input style="color: white;" type="text" value="<?php echo admin::EditHappyHour("moneda4"); ?>" name="moneda4" class="form-control">
+                                    <input style="color: white;" type="text"
+                                        value="<?php echo admin::EditHappyHour("moneda3"); ?>" name="moneda3"
+                                        class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail3">Moneda 2:</label>
+                                    <input style="color: white;" type="text"
+                                        value="<?php echo admin::EditHappyHour("moneda4"); ?>" name="moneda4"
+                                        class="form-control">
                                 </div>
 
 
-                                <button id="btn" name="update" type="submit" class="btn btn-primary mr-2">Guardar</button>
+                                <button id="btn" name="update" type="submit"
+                                    class="btn btn-primary mr-2">Guardar</button>
                             </form>
                         </div>
                     </div>
                 </div>
-              
-             
+
+
 
 
 

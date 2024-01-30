@@ -19,16 +19,16 @@ admin::CheckRank(17);
 
     <div class="main-panel">
         <div class="content-wrapper">
-        <div class="row">
+            <div class="row">
                 <div class="col-md-12 grid-margin stretch-card">
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Editar información del índice</h4>
                             <p class="card-description">Gestión de la información</p>
-                          <!--   <a href="/adminpan/addcatalogsection" class="btn active" role="button" aria-pressed="true" style="background-color:#4272d7;color:#FFFFFF;">Añadir sección</a>-->
-						    <?php admin::DeleteInfosIndex(); ?>
+                            <!--   <a href="/adminpan/addcatalogsection" class="btn active" role="button" aria-pressed="true" style="background-color:#4272d7;color:#FFFFFF;">Añadir sección</a>-->
+                            <?php admin::DeleteInfosIndex(); ?>
                             <?php if (User::userData('rank') > '18') { ?>
-                                <center>
+                            <center>
                                 <div class="table-responsive ">
                                     <table class="table  table-condensed" id="tableprueba" style="">
                                         <thead>
@@ -50,16 +50,23 @@ admin::CheckRank(17);
                                             while ($infos = $getinfos->fetch()) {
                                             ?>
 
-                                                <tr style="color:#6c7293; background:#191c24">
-                                                    <td> <?php echo $infos["id"]; ?></td>
+                                            <tr style="color:#6c7293; background:#191c24">
+                                                <td> <?php echo $infos["id"]; ?></td>
 
-                                                    <td><?php echo $infos["title"]; ?></td>
-                                                    <td>(<?php echo $infos["information"]; ?>)</td>
-                                                    <td>
-                                                        <center><a type="button" class="btn btn-info" href="<?php echo $config['hotelUrl']; ?>/adminpan/editinfosindex/<?php echo $infos["id"]; ?>">Editar</center></a>
+                                                <td><?php echo $infos["title"]; ?></td>
+                                                <td>(<?php echo $infos["information"]; ?>)</td>
+                                                <td>
+                                                    <center><a type="button" class="btn btn-info"
+                                                            href="<?php echo $config['hotelUrl']; ?>/adminpan/editinfosindex/<?php echo $infos["id"]; ?>">Editar
+                                                    </center></a>
+                                                </td>
+                                                <center>
+                                                    <td style="color:#6c7293; background:#191c24"><a type="button"
+                                                            class="btn btn-danger"
+                                                            href=' <?php echo  $config['hotelUrl'];?>/adminpan/infosindex/delete/<?php echo $infos["id"];?>'>Eliminar</a>
                                                     </td>
-                                                    <center><td style="color:#6c7293; background:#191c24"><a type="button" class="btn btn-danger" href=' <?php echo  $config['hotelUrl'];?>/adminpan/infosindex/delete/<?php echo $infos["id"];?>'>Eliminar</a></td></center>
-                                                </tr>
+                                                </center>
+                                            </tr>
                                             <?php } ?>
 
 
@@ -67,14 +74,14 @@ admin::CheckRank(17);
 
                                         </tbody>
                                     </table>
-                                </center>
+                            </center>
                         </div>
                     </div>
-                <?php } ?>
+                    <?php } ?>
                 </div>
             </div>
         </div>
-        
+
 
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
@@ -88,9 +95,9 @@ admin::CheckRank(17);
         <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" />
         <script type="text/javascript" src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
         <script>
-            $(document).ready(function() {
-                $('#tableprueba').DataTable();
-            });
+        $(document).ready(function() {
+            $('#tableprueba').DataTable();
+        });
         </script>
 </body>
 

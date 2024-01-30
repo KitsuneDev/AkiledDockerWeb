@@ -118,22 +118,22 @@ admin::CheckRank(13);
                             </form>
                         </div>
                     </div>
-                </div>            
+                </div>
 
-            <div class="col-md-8 grid-margin stretch-card">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Placas</h4>
-                        <p class="card-description"> Lista de placas subidas por staffs</p>
-                        <div class="table-responsive ">
-                            <table class=" table-condensed table" id="tableprueba" style="background:#191c24">
-                                <thead>
+                <div class="col-md-8 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Placas</h4>
+                            <p class="card-description"> Lista de placas subidas por staffs</p>
+                            <div class="table-responsive ">
+                                <table class=" table-condensed table" id="tableprueba" style="background:#191c24">
+                                    <thead>
 
 
-                                    <?php
-                                    $getArticles = $dbh->prepare("SELECT * FROM swf_badges ORDER BY id DESC");
-                                    $getArticles->execute();
-                                    echo ' <tr>
+                                        <?php
+                                        $getArticles = $dbh->prepare("SELECT * FROM swf_badges ORDER BY id DESC");
+                                        $getArticles->execute();
+                                        echo ' <tr>
 										<th><b>ID</b></th>
 										<th><b>Codigo</b></th>
 										<th><b>Nombre</b></th>
@@ -143,8 +143,8 @@ admin::CheckRank(13);
 										 </thead>
 										 <tbody>
 										';
-                                    while ($news = $getArticles->fetch()) {
-                                        echo '<tr  style="color:#6c7293; background:#191c24">
+                                        while ($news = $getArticles->fetch()) {
+                                            echo '<tr  style="color:#6c7293; background:#191c24">
 										<td>' . $news["id"] . '</td>
 										<td>' . $news["clave"] . '</td>
 										<td>' . $news["name"] . '</td>
@@ -152,17 +152,17 @@ admin::CheckRank(13);
 										<td>' . $news["autor"] . '</td>
 										</tr>
 										';
-                                    }
-                                    ?>
+                                        }
+                                        ?>
 
-                                    </tbody>
-                            </table>
+                                        </tbody>
+                                </table>
+                            </div>
                         </div>
+                        </section>
                     </div>
-                    </section>
                 </div>
             </div>
-        </div>
         </div>
 
 

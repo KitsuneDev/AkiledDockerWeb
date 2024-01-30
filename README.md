@@ -15,6 +15,8 @@
 3. Create a User, and, in PhpMyAdmin, set it's rank to `25`
    1. Alternatively, run `just createUser` to create a new user automatically. This does require the MariaDB C Connector.
    2. On Ubuntu, this can be installed by running `just installUbuntuDeps`
+   4. (optional) In Fedora it is common for partitions to be limited so use this command to verify the partition ``lvscan`` In Fedora it is common for partitions to be limited, so use this command to check the adsda partition and if it is available, add what you need ``sudo lvextend --size +5.9G --resizefs /dev/fedora_ip9/root``
+
 
 ## Operation Instructions
 

@@ -35,11 +35,11 @@ admin::CheckRank(13);
                                 <?php
                                 admin::EditFurniture("id");
                                 admin::UpdateFurniture();
-                                
+
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditFurniture("id"); ?>" name="naam" class="form-control">
-								
-								<div class="form-group">
+
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Nome do Item</label>
                                     <input style="color: black;" type="text" value="<?php echo admin::EditFurniture("item_name"); ?>" name="item_name" class="form-control" Readonly>
                                 </div>
@@ -88,22 +88,22 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">ID de efecto</label>
                                     <input type="number" value="<?php echo admin::EditFurniture("effect_id"); ?>" name="effect_id" class="form-control" id="exampleInputName1" placeholder="Longitud del mueble">
                                 </div>
-                                
+
                         </div>
                     </div>
                 </div>
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-					
-                    <div class="table-responsive " >
-                    <div class="form-group">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="table-responsive ">
+                                <div class="form-group">
                                     <label for="exampleInputName1">¿Se puede apilar?</label>
 
                                     <select name="can_stack" class="form-control">
-                                        <option name="can_stack" value="0" <?php echo admin::EditFurniture("can_stack")=='0'?'selected':'';?>>No</option>
-                                        <option name="can_stack" value="1" <?php echo admin::EditFurniture("can_stack")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="can_stack" value="0" <?php echo admin::EditFurniture("can_stack") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="can_stack" value="1" <?php echo admin::EditFurniture("can_stack") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
@@ -113,8 +113,8 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">¿Se puede sentarse?</label>
 
                                     <select name="can_sit" class="form-control">
-                                        <option name="can_sit" value="0" <?php echo admin::EditFurniture("can_sit")=='0'?'selected':'';?>>No</option>
-                                        <option name="can_sit" value="1" <?php echo admin::EditFurniture("can_sit")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="can_sit" value="0" <?php echo admin::EditFurniture("can_sit") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="can_sit" value="1" <?php echo admin::EditFurniture("can_sit") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
@@ -124,8 +124,8 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">¿Caminar sobre lo mueble?</label>
 
                                     <select name="is_walkable" class="form-control">
-                                        <option name="is_walkable" value="0" <?php echo admin::EditFurniture("is_walkable")=='0'?'selected':'';?>>No</option>
-                                        <option name="is_walkable" value="1" <?php echo admin::EditFurniture("is_walkable")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="is_walkable" value="0" <?php echo admin::EditFurniture("is_walkable") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="is_walkable" value="1" <?php echo admin::EditFurniture("is_walkable") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
@@ -135,8 +135,8 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">¿Se puede reciclar este furni?</label>
 
                                     <select name="allow_recycle" class="form-control">
-                                        <option name="allow_recycle" value="0" <?php echo admin::EditFurniture("allow_recycle")=='0'?'selected':'';?>>No</option>
-                                        <option name="allow_recycle" value="1" <?php echo admin::EditFurniture("allow_recycle")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="allow_recycle" value="0" <?php echo admin::EditFurniture("allow_recycle") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="allow_recycle" value="1" <?php echo admin::EditFurniture("allow_recycle") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
@@ -146,8 +146,8 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">¿Se puede intercambiar este furni?</label>
 
                                     <select name="allow_trade" class="form-control">
-                                        <option name="allow_trade" value="0" <?php echo admin::EditFurniture("allow_trade")=='0'?'selected':'';?>>No</option>
-                                        <option name="allow_trade" value="1" <?php echo admin::EditFurniture("allow_trade")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="allow_trade" value="0" <?php echo admin::EditFurniture("allow_trade") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="allow_trade" value="1" <?php echo admin::EditFurniture("allow_trade") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
@@ -157,8 +157,8 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">¿Este mueble se puede vender en la feria libre?</label>
 
                                     <select name="allow_marketplace_sell" class="form-control">
-                                        <option name="allow_marketplace_sell" value="0" <?php echo admin::EditFurniture("allow_marketplace_sell")=='0'?'selected':'';?>>No</option>
-                                        <option name="allow_marketplace_sell" value="1" <?php echo admin::EditFurniture("allow_marketplace_sell")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="allow_marketplace_sell" value="0" <?php echo admin::EditFurniture("allow_marketplace_sell") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="allow_marketplace_sell" value="1" <?php echo admin::EditFurniture("allow_marketplace_sell") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
@@ -168,8 +168,8 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">¿Se puede enviar este furni como regalo?</label>
 
                                     <select name="allow_gift" class="form-control">
-                                        <option name="allow_gift" value="0" <?php echo admin::EditFurniture("allow_gift")=='0'?'selected':'';?>>No</option>
-                                        <option name="allow_gift" value="1" <?php echo admin::EditFurniture("allow_gift")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="allow_gift" value="0" <?php echo admin::EditFurniture("allow_gift") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="allow_gift" value="1" <?php echo admin::EditFurniture("allow_gift") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
@@ -179,8 +179,8 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">¿Apilar este furni en el inventario?</label>
 
                                     <select name="allow_inventory_stack" class="form-control">
-                                        <option name="allow_inventory_stack" value="0" <?php echo admin::EditFurniture("allow_inventory_stack")=='0'?'selected':'';?>>No</option>
-                                        <option name="allow_inventory_stack" value="1" <?php echo admin::EditFurniture("allow_inventory_stack")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="allow_inventory_stack" value="0" <?php echo admin::EditFurniture("allow_inventory_stack") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="allow_inventory_stack" value="1" <?php echo admin::EditFurniture("allow_inventory_stack") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
@@ -190,23 +190,23 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">¿Es raro este furni?</label>
 
                                     <select name="is_rare" class="form-control">
-                                        <option name="is_rare" value="0" <?php echo admin::EditFurniture("is_rare")=='0'?'selected':'';?>>No</option>
-                                        <option name="is_rare" value="1" <?php echo admin::EditFurniture("is_rare")=='1'?'selected':'';?>>Sí</option>
+                                        <option name="is_rare" value="0" <?php echo admin::EditFurniture("is_rare") == '0' ? 'selected' : ''; ?>>No</option>
+                                        <option name="is_rare" value="1" <?php echo admin::EditFurniture("is_rare") == '1' ? 'selected' : ''; ?>>Sí</option>
 
                                     </select>
 
                                 </div>
 
                                 <button id="btn" name="update" type="submit" class="btn btn-primary mr-2">Guardar</button>
-                            </form>
-                        
-                        
+                                </form>
+
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

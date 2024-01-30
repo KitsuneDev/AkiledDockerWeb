@@ -2,6 +2,8 @@
     "image.library.notifications.url": "${image.library.url}notifications/%image%.png",
     "achievements.images.url": "${image.library.url}Quests/%image%.png",
     "camera.url": "{{ .Env.WEB_URL }}/swfs/newfoto",
+    "audio.url": "{{ .Env.WEB_URL }}/swfs/audios/audio.php",
+    "audio.sounds.url": "{{ .Env.WEB_URL }}/swfs/audios/sounds/",
     "thumbnails.url": "{{ .Env.WEB_URL }}/swfs/newfoto/thumbnail/%thumbnail%.png",
     "url.prefix": "{{ .Env.WEB_URL }}/swfs/nitro",
     "habbopages.url": "{{ .Env.WEB_URL }}/swfs/gamedata/pages/",
@@ -76,9 +78,7 @@
             "slot.5.widget": "",
             "slot.5.conf": {},
             "slot.6.widget": "achievementcompetition_hall_of_fame",
-            "slot.6.conf": {
-                "campaign": "habboFameComp"
-            },
+            "slot.6.conf": "",
             "slot.7.widget": "",
             "slot.7.conf": {}
         },

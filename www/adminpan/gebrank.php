@@ -20,27 +20,29 @@ admin::CheckRank(13);
     <div class="main-panel">
         <div class="content-wrapper">
 
-           
+
             <div class="row">
                 <div class="col-md-6 grid-margin stretch-card">
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Gestionar Rango</h4>
-                            <p class="card-description">Gestionar rango de <?php echo admin::EditUser("username"); ?> </p>
+                            <p class="card-description">Gestionar rango de <?php echo admin::EditUser("username"); ?>
+                            </p>
 
                             <form class="forms-sample" name="mygallery" action="" method="POST">
 
-                            <?php admin::EditUserRak("username"); 
+                                <?php admin::EditUserRak("username"); 
 								admin::LookSollie1();
 							?>
-                                <input id="icon_prefix" type="hidden" value="<?php echo admin::EditUser("username"); ?>" name="naam" class="form-control">
-                                
+                                <input id="icon_prefix" type="hidden" value="<?php echo admin::EditUser("username"); ?>"
+                                    name="naam" class="form-control">
+
 
                                 <div class="form-group">
                                     <label for="exampleInputPassword4"><?= $lang["HkRankRank"]?></label>
-                                    <select name="rank"  class="form-control">
-					
-                    <?php 
+                                    <select name="rank" class="form-control">
+
+                                        <?php 
                                                         $GetRanks = $dbh->prepare("SELECT * FROM permissions_groups ORDER BY id ASC ");
                                                         $GetRanks->execute();
                                                             
@@ -68,12 +70,12 @@ admin::CheckRank(13);
                                                                 }
                                                             }
                                                         ?>
-                                        </select>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Colaboradores</label>
                                     <select name="dj" class="form-control">
-							<?php
+                                        <?php
 									
 									
 									
@@ -104,12 +106,12 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-					</select>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Tareas</label>
                                     <select name="tarea" class="form-control">
-									<?php			
+                                        <?php			
 									$GetRanks = $dbh->prepare("SELECT * FROM tareas");
 									$GetRanks->execute();
 										
@@ -135,15 +137,15 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-									
-									
-	</select>	
+
+
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Guia</label>
                                     <select name="isguia" class="form-control">
-							<option value="" disabled selected>Guia</option>
-							<?php
+                                        <option value="" disabled selected>Guia</option>
+                                        <?php
 									
 									
 									
@@ -174,14 +176,14 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-					</select>
+                                    </select>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Moderador</label>
                                     <select name="ismod" class="form-control">
-						<option value="" disabled selected>MOD</option>
-							<?php
+                                        <option value="" disabled selected>MOD</option>
+                                        <?php
 									
 									
 									
@@ -212,13 +214,13 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-					</select>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Publicista</label>
                                     <select name="ispub" class="form-control">
-					<option value="" disabled selected>PUB</option>
-						<?php
+                                        <option value="" disabled selected>PUB</option>
+                                        <?php
 									
 									
 									
@@ -249,14 +251,14 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-					</select>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Chat Inters</label>
                                     <select name="isinter" class="form-control">
-						<option value="" disabled selected>CHAT INTER</option>
-						
-									<?php
+                                        <option value="" disabled selected>CHAT INTER</option>
+
+                                        <?php
 									
 									
 									
@@ -287,13 +289,13 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-					</select>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Chat GM</label>
                                     <select name="isgm" class="form-control">
-						<option value="" disabled selected>Chat GM</option>
-						<?php
+                                        <option value="" disabled selected>Chat GM</option>
+                                        <?php
 									
 									
 									
@@ -324,13 +326,13 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-					</select>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Insignia de embajador</label>
                                     <select name="isemb" class="form-control">
-						<option  value="" disabled selected>Insignia de embajador</option>
-						<?php
+                                        <option value="" disabled selected>Insignia de embajador</option>
+                                        <?php
 									
 									
 									
@@ -361,12 +363,12 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-					</select>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Seleccionar pais</label>
                                     <select name="pais" class="form-control">
-									<?php			
+                                        <?php			
 									$GetRanks = $dbh->prepare("SELECT * FROM cms_paises");
 									$GetRanks->execute();
 										
@@ -392,15 +394,17 @@ admin::CheckRank(13);
 											}
 										}
 									?>
-									
-									
-	</select>	
+
+
+                                    </select>
                                 </div>
 
 
-                                <input type='hidden' id="link" value="https://discord.com/api/webhooks/797863689163767818/ZdPIM6Bzw9ILKv3mZWSes8ss6JvhIsooc2fy0d6Lje9vVKpcLBGO8plxGD0YSB54kUQi">
+                                <input type='hidden' id="link"
+                                    value="https://discord.com/api/webhooks/797863689163767818/ZdPIM6Bzw9ILKv3mZWSes8ss6JvhIsooc2fy0d6Lje9vVKpcLBGO8plxGD0YSB54kUQi">
                                 <input type="hidden" id="username" value="Seguridad P&H: Editor Usuarios">
-                                <input type="hidden" id="avatar" value="https://cdn.discordapp.com/icons/770010766379581461/c8bb8c81b6cb95d68756c9e547556ff4.png?size=128">
+                                <input type="hidden" id="avatar"
+                                    value="https://cdn.discordapp.com/icons/770010766379581461/c8bb8c81b6cb95d68756c9e547556ff4.png?size=128">
                                 <input type="hidden" id="content" value=":warning: <?php echo User::userData('username'); ?>: ha editado informacion de (<?php echo admin::EditUser("username"); ?>)
  
                                 Mision: <?php echo admin::EditUser("motto"); ?> --- :bookmark_tabs:
@@ -416,7 +420,8 @@ admin::CheckRank(13);
                                         ">
 
 
-                                <button id="btn" name="updaterank" type="submit" class="btn btn-primary mr-2">Guardar</button>
+                                <button id="btn" name="updaterank" type="submit"
+                                    class="btn btn-primary mr-2">Guardar</button>
                             </form>
                         </div>
                     </div>
@@ -426,44 +431,75 @@ admin::CheckRank(13);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card" style=" max-height: 700px;">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Perfil de <?php echo admin::EditUser("username"); ?> </h4>
-                    <p class="card-description">Pequeña informacion sobre <?php echo admin::EditUser("username"); ?> </p>
-                    </p>
-                    <center>
-				
-					<img  src="<?php echo $config['lookUrl']; ?><?php echo admin::EditUser("look"); ?>&direction=3&head_direction=3&size=l&gesture=sml">
-                    </center>
-                    <div class="table-responsive " >
-                      <table class="table table-hover" >
-                      <tbody>
-                      <tr>
-                           <td>	<p > <b class="text-info">Misión: </b>"<?php echo admin::EditUser("motto"); ?>"</p> </td></tr>
-                        <tr> <td><p><b class="text-success">Ultima conexion:</b> <?php echo fecha_dat(admin::EditUser('last_online')); ?></p> </td>  </tr>
-                        <tr><td><p><b class="text-danger">Creditos:</b> <?php echo admin::EditUser("credits"); ?></p> </td>  </tr>
-                        <tr>  <td><p><b class="text-warning">Esmeraldas:</b> <?php echo admin::EditUser("activity_points"); ?></p> </td>  </tr>
-                        <tr><td><p><b class="text-warning">Planetas: </b> <?php echo admin::EditUser("vip_points"); ?> </p> </td>  </tr>
-                        <tr><td><p><b class="text-primary">Nivel de rango:</b> <?php echo admin::EditUser("rank"); ?> </p> </td>  </tr>
-                   
-					
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Perfil de <?php echo admin::EditUser("username"); ?> </h4>
+                            <p class="card-description">Pequeña informacion sobre
+                                <?php echo admin::EditUser("username"); ?> </p>
+                            </p>
+                            <center>
+
+                                <img
+                                    src="<?php echo $config['lookUrl']; ?><?php echo admin::EditUser("look"); ?>&direction=3&head_direction=3&size=l&gesture=sml">
+                            </center>
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p> <b class="text-info">Misión:
+                                                    </b>"<?php echo admin::EditUser("motto"); ?>"</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-success">Ultima conexion:</b>
+                                                    <?php echo fecha_dat(admin::EditUser('last_online')); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-danger">Creditos:</b>
+                                                    <?php echo admin::EditUser("credits"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Esmeraldas:</b>
+                                                    <?php echo admin::EditUser("activity_points"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Planetas: </b>
+                                                    <?php echo admin::EditUser("vip_points"); ?> </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-primary">Nivel de rango:</b>
+                                                    <?php echo admin::EditUser("rank"); ?> </p>
+                                            </td>
+                                        </tr>
 
 
-                      
-                      
-                        
-                        </tbody>
-                      </table>
-                        
-                        
+
+
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

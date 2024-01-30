@@ -37,7 +37,7 @@ admin::CheckRank(19);
                                 admin::UpdateFanSites();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditFanSites("id"); ?>" name="naam" class="form-control">
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">ID de InfoIndex</label>
                                     <input style="color: black;" type="number" value="<?php echo admin::EditFanSites("id"); ?>" name="id" class="form-control" id="exampleInputName1" placeholder="ID del pagina" Readonly>
@@ -58,7 +58,7 @@ admin::CheckRank(19);
                                     <label for="exampleInputPassword4">Propietario del Fã-Site:</label>
                                     <input type="text" value="<?php echo admin::EditFanSites("ceo"); ?>" name="ceo" class="form-control" autocomplete="off">
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditFanSites("id"); ?>)
  
 
@@ -78,38 +78,38 @@ admin::CheckRank(19);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    
-					
-                    <div class="table-responsive " >
-                        <table class="table table-hover" >
-                            <tbody>
-                                <tr>
-                                <td>
-                                    <p><b class="text-info">ID del Fã-Site: </b><?php echo admin::EditFanSites("id"); ?></p> 
-                                </td>
-                                </tr>
-                                <tr>  
-                                    <td>
-                                        <p><b class="text-warning">Nombre del Fã-Site: </b> <?php echo admin::EditFanSites("name"); ?></p>
-                                    </td>  
-                                </tr>
-                                <tr>  
-                                    <td style="white-space: inherit; line-height: 1.6;">
-                                        <p><b class="text-primary">Propietario del Fã-Site: </b> <?php echo admin::EditFanSites("ceo"); ?></p>
-                                    </td>  
-                                </tr>
-                                <br />
+                    <div class="card">
+                        <div class="card-body">
 
-                            </tbody>
-                        </table>
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-info">ID del Fã-Site: </b><?php echo admin::EditFanSites("id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Nombre del Fã-Site: </b> <?php echo admin::EditFanSites("name"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="white-space: inherit; line-height: 1.6;">
+                                                <p><b class="text-primary">Propietario del Fã-Site: </b> <?php echo admin::EditFanSites("ceo"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
                     </div>
-
-                  </div>
-                </div>
                 </div>
             </div>
         </div>

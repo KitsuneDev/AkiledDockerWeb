@@ -26,7 +26,7 @@
     "enable.avatar.arrow": false,
     "system.animation.fps": 24,
     "system.limits.fps": false,
-    "system.dispatcher.log": false,
+    "system.dispatcher.log": true,
     "system.packet.log": true,
     "system.pong.manually": true,
     "system.pong.interval.ms": 20000,

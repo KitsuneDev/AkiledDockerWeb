@@ -37,7 +37,7 @@ admin::CheckRank(19);
                                 admin::UpdatePermissions();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditPermissions("id"); ?>" name="naam" class="form-control">
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">ID de Rango</label>
                                     <input style="color: black;" type="number" value="<?php echo admin::EditPermissions("id"); ?>" name="id" class="form-control" id="exampleInputName1" placeholder="ID del pagina" Readonly>
@@ -50,11 +50,11 @@ admin::CheckRank(19);
                                     <label for="exampleInputPassword4">Placa de Rango:</label>
                                     <input type="text" value="<?php echo admin::EditPermissions("badge_code"); ?>" name="badge_code" class="form-control" autocomplete="off">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Título de Rango:</label>
                                     <input type="text" value="<?php echo admin::EditPermissions("title"); ?>" name="title" class="form-control">
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditPermissions("id"); ?>)
  
 
@@ -74,37 +74,48 @@ admin::CheckRank(19);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-				  <img class="circle" style="width: 17px; height: 17px;" src="/swfs/c_images/album1584/<?php echo admin::EditPermissions("badge_code"); ?>.gif">
-                    <?php echo admin::EditPermissions("name"); ?>
-                    </p>
-					
-                    <div class="table-responsive " >
-                      <table class="table table-hover" >
-                      <tbody>
-                      <tr>
-                           <td>	<p > <b class="text-info">ID del Rango: </b><?php echo admin::EditPermissions("id"); ?></p> </td></tr>
-                        <tr>  <td><p><b class="text-warning">Nombre de Rango:</b> <?php echo admin::EditPermissions("name"); ?></p> </td>  </tr>
-						<tr>  <td><p><b class="text-primary">Placa de Rango:</b> <?php echo admin::EditPermissions("badge_code"); ?></p> </td>  </tr>
-						<br />
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="circle" style="width: 17px; height: 17px;" src="/swfs/c_images/album1584/<?php echo admin::EditPermissions("badge_code"); ?>.gif">
+                            <?php echo admin::EditPermissions("name"); ?>
+                            </p>
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p> <b class="text-info">ID del Rango: </b><?php echo admin::EditPermissions("id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Nombre de Rango:</b> <?php echo admin::EditPermissions("name"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-primary">Placa de Rango:</b> <?php echo admin::EditPermissions("badge_code"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
 
 
-                      
-                      
-                        
-                        </tbody>
-                      </table>
-                        
-                        
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-  include_once "includes/head.php";
-  $_SESSION['title'] = '';
-  $_SESSION['slogan'] = '';
-  $_SESSION['news'] = '';
-  admin::CheckRank(13);
+include_once "includes/head.php";
+$_SESSION['title'] = '';
+$_SESSION['slogan'] = '';
+$_SESSION['news'] = '';
+admin::CheckRank(13);
 ?>
 
 <body>
 
   <?php
-    include_once "includes/navi.php";
-    include_once "includes/header.php";
+  include_once "includes/navi.php";
+  include_once "includes/header.php";
   ?>
 
   <div class="main-panel">
@@ -25,7 +25,7 @@
 
             <?php admin::DeleteReport(); ?>
 
-            
+
 
             <div class="table-responsive " style=" max-height: 600px; overflow-y: scroll">
               <table class="table table-hover">
@@ -42,46 +42,47 @@
                 </thead>
 
                 <?php
-                  $getArticles = $dbh->prepare("SELECT * FROM cms_reports WHERE state = 'closed' ORDER BY id DESC");
-                  $getArticles->execute();
-                    while ($news = $getArticles->fetch()) {
+                $getArticles = $dbh->prepare("SELECT * FROM cms_reports WHERE state = 'closed' ORDER BY id DESC");
+                $getArticles->execute();
+                while ($news = $getArticles->fetch()) {
                 ?>
 
-                <tbody>
+                  <tbody>
 
                     <tr>
-                      <td><?=filter($news["id"])?></td>
-                      <td><?=filter($news["title"])?></td>
-                      <td><?=filter($news["category"])?></td>
-                      <td><?=filter($news["state"])?></td>
-                      <td><?=filter($news["author"])?></td>
+                      <td><?= filter($news["id"]) ?></td>
+                      <td><?= filter($news["title"]) ?></td>
+                      <td><?= filter($news["category"]) ?></td>
+                      <td><?= filter($news["state"]) ?></td>
+                      <td><?= filter($news["author"]) ?></td>
 
                       <?php if (User::userData('rank') > '10') { ?>
 
-                      <?php
+                        <?php
                         if ($news["state"] == "open" || $news["state"] == "treatment") {
-                      ?>
+                        ?>
 
-                      <td>
-                        <a type="button" class="btn btn-primary"  href="/adminpan/replyreport/<?=$news["id"]?>">Editar</a>
-                      </td>
+                          <td>
+                            <a type="button" class="btn btn-primary" href="/adminpan/replyreport/<?= $news["id"] ?>">Editar</a>
+                          </td>
 
-                      <?php } else { ?>
+                        <?php } else { ?>
+
+                          <td>
+                            <a type="button" class="btn btn-secondary">Inaccesible</a>
+                          </td>
+
+                        <?php } ?>
 
                         <td>
-                          <a type="button" class="btn btn-secondary">Inaccesible</a>
+                          <a type="button" class="btn btn-danger" href="/adminpan/report/delete/<?= $news["id"] ?>">Eliminar</a>
                         </td>
+                    </tr>
 
-                      <?php } ?>
+                <?php }
+                    } ?>
 
-                      <td>
-                        <a type="button" class="btn btn-danger"  href="/adminpan/report/delete/<?=$news["id"]?>">Eliminar</a>
-                      </td>
-                  </tr>
-
-                  <?php } } ?>
-
-                </tbody>
+                  </tbody>
               </table>
             </div>
           </div>
@@ -90,7 +91,7 @@
     </div>
 
     <?php
-      include_once "includes/footer.php";
+    include_once "includes/footer.php";
     ?>
 
 </body>

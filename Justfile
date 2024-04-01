@@ -22,6 +22,13 @@ createUser:
 	docker compose up -d
 	python3 tools/create_user.py
 	docker compose down
+clearfurniture:
+	python3 -m pip install fuzzywuzzy
+	python3 assets/translation/clean_bundled.py
+translate:
+	py assets/translation/external_text.py --domain es
+	py assets/translation/FurnitureDataTranslator.py
+	py assets/translation/SQLGenerator.py
 start:
 	@docker compose up -d
 web:

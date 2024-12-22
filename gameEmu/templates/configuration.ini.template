@@ -17,7 +17,7 @@ game.websocketsport=527
 
 ## MUS TCP/IP Configuration
 mus.tcp.port=30001
-mus.tcp.allowedaddr=localhost;127.0.0.1;kitsune-ws.cgnet.dev
+mus.tcp.allowedaddr=localhost;127.0.0.1;{{ .Env.WEB_URL }}	
 
 Musenable=true
 Websocketenable=true

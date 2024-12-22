@@ -7,4 +7,6 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 COPY ./service/nginx /var/service/nginx/run
 RUN dos2unix /var/service/nginx/run && apt-get --purge remove -y dos2unix && rm -rf /var/lib/apt/lists/*
+RUN docker-php-ext-install sockets
 RUN chmod +x /var/service/nginx/run
+

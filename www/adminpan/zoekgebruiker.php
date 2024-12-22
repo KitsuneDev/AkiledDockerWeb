@@ -18,7 +18,7 @@ admin::CheckRank(13);
 
     <div class="main-panel">
         <div class="content-wrapper">
-        <div class="page-header">
+            <div class="page-header">
                 <h1 class="page-title">Editar Usuarios </h1>
             </div>
             <div class="row">
@@ -56,7 +56,7 @@ admin::CheckRank(13);
 
 
 
-     
+
         <div class="col-lg-8 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
@@ -75,7 +75,7 @@ admin::CheckRank(13);
                                 ?>
                                     <tr>
                                         <td>ID: <?php echo $getUsersDev['id']; ?></td>
-                                        <td> <img class="circle" src="<?php echo $config['look']; ?><?php echo $getUsersDev['look']; ?>&direction=3&head_direction=3&gesture=none&action=none&size=n&headonly=1"></td>
+                                        <td> <img class="circle" src="<?php echo $config['lookUrl']; ?><?php echo $getUsersDev['look']; ?>&direction=3&head_direction=3&gesture=none&action=none&size=n&headonly=1"></td>
                                         <td> <span class="title"><?php echo $getUsersDev['username']; ?> </span></td>
                                         <td>
                                             <p><?php echo $getUsersDev['motto']; ?>
@@ -96,65 +96,64 @@ admin::CheckRank(13);
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 
 
-        <div class="row">    
+    <div class="row">
         <div class="col-lg-12 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
+            <div class="card">
+                <div class="card-body">
                     <h4 class="card-title">Usuarios Conectados</h4>
                     <p class="card-description"> Monitor de usuarios conectados <code>(No Real Time)</code>
                     </p>
                     <div class="table-responsive " style=" max-height: 350px; overflow-y: scroll">
-                      <table class="table table-hover" >
-                        <thead>
-                          <tr>
-                          <th><?=$lang["Hkregtab0"]?></th>
-                     <th><?=$lang["Hkregtab1"]?></th>
-                     <th><?=$lang["Hkregtab3"]?></th>
-                     <th>Esmeraldas</th>
-					 <th>Planetas</th>
-                     <th><?=$lang["Hkregtab5"]?></th>
-                          </tr>
-                        </thead>
-                        <tbody>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th><?= $lang["Hkregtab0"] ?></th>
+                                    <th><?= $lang["Hkregtab1"] ?></th>
+                                    <th><?= $lang["Hkregtab3"] ?></th>
+                                    <th>Esmeraldas</th>
+                                    <th>Planetas</th>
+                                    <th><?= $lang["Hkregtab5"] ?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
 
 
 
-                        <?php
-					$Geta = $dbh->prepare("SELECT * FROM `users` WHERE `online` = '1'");
-					$Geta->execute();
-					while($news = $Geta->fetch())
-					{
-					echo'
+                                <?php
+                                $Geta = $dbh->prepare("SELECT * FROM `users` WHERE `online` = '1'");
+                                $Geta->execute();
+                                while ($news = $Geta->fetch()) {
+                                    echo '
                   <tr>
-                     <td>'.$news["id"].'</td>
-                     <td>'.$news["username"].'</td>
-                     <td>'.$news["credits"].'</td>
-					 <td>'.$news["activity_points"].'</td>
-                     <td>'.$news["vip_points"].'</td>
+                     <td>' . $news["id"] . '</td>
+                     <td>' . $news["username"] . '</td>
+                     <td>' . $news["credits"] . '</td>
+					 <td>' . $news["activity_points"] . '</td>
+                     <td>' . $news["vip_points"] . '</td>
             <td><label class="badge badge-success">Conectado</label></td>';
-					
-					 echo'
+
+                                    echo '
                   </tr>
 				  ';
-					}
+                                }
 
-					?>
+                                ?>
 
-                        
-                        </tbody>
-                      </table>
+
+                            </tbody>
+                        </table>
                     </div>
-                  </div>
                 </div>
-              </div>
-              </div>
-              </div>
-            
-              
+            </div>
+        </div>
+    </div>
+    </div>
+
+
 
 
 

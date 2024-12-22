@@ -19,52 +19,52 @@ admin::CheckRank(19);
 
     <div class="main-panel">
         <div class="content-wrapper">
-        <div class="row">
+            <div class="row">
                 <div class="col-md-12 grid-margin stretch-card">
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Editar Comandos</h4>
                             <p class="card-description">Gestión de Comandos</p>
-                          <!--   <a href="/adminpan/addcatalogsection" class="btn active" role="button" aria-pressed="true" style="background-color:#4272d7;color:#FFFFFF;">Añadir sección</a>-->
-						  
+                            <!--   <a href="/adminpan/addcatalogsection" class="btn active" role="button" aria-pressed="true" style="background-color:#4272d7;color:#FFFFFF;">Añadir sección</a>-->
+
                             <?php if (User::userData('rank') > '18') { ?>
                                 <center>
-                                <div class="table-responsive ">
-                                    <table class="table  table-condensed" id="tableprueba" style="">
-                                        <thead>
-                                            <tr>
-                                                <th>ID</th>
-                                                <th>Comando</th>
-                                                <th>MinRank</th>
-                                                <th>Editar</th>
-                                            </tr>
-
-                                        </thead>
-
-                                        <tbody>
-                                            <?php
-                                            $getpages = $dbh->prepare("SELECT * FROM system_commands");
-                                            $getpages->execute();
-
-                                            while ($pages = $getpages->fetch()) {
-                                            ?>
-
-                                                <tr style="color:#6c7293; background:#191c24">
-                                                    <td> <?php echo $pages["id"]; ?></td>
-
-                                                    <td>(<?php echo $pages["input"]; ?>)</td>
-                                                    <td><?php echo $pages["minrank"]; ?></td>
-                                                    <td>
-                                                        <center><a type="button" class="btn btn-info" href="<?php echo $config['hotelUrl']; ?>/adminpan/editcomandos/<?php echo $pages["id"]; ?>">Editar</center></a>
-                                                    </td>
+                                    <div class="table-responsive ">
+                                        <table class="table  table-condensed" id="tableprueba" style="">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Comando</th>
+                                                    <th>MinRank</th>
+                                                    <th>Editar</th>
                                                 </tr>
-                                            <?php } ?>
+
+                                            </thead>
+
+                                            <tbody>
+                                                <?php
+                                                $getpages = $dbh->prepare("SELECT * FROM system_commands");
+                                                $getpages->execute();
+
+                                                while ($pages = $getpages->fetch()) {
+                                                ?>
+
+                                                    <tr style="color:#6c7293; background:#191c24">
+                                                        <td> <?php echo $pages["id"]; ?></td>
+
+                                                        <td>(<?php echo $pages["input"]; ?>)</td>
+                                                        <td><?php echo $pages["minrank"]; ?></td>
+                                                        <td>
+                                                            <center><a type="button" class="btn btn-info" href="<?php echo $config['hotelUrl']; ?>/adminpan/editcomandos/<?php echo $pages["id"]; ?>">Editar</center></a>
+                                                        </td>
+                                                    </tr>
+                                                <?php } ?>
 
 
 
 
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
                                 </center>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ admin::CheckRank(19);
                 </div>
             </div>
         </div>
-        
+
 
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->

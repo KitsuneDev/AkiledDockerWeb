@@ -198,6 +198,11 @@ http {
     	proxy_set_header Connection "Upgrade";
     	proxy_set_header Host $host;
 	}
+
+	location ^~ /imager/ {
+            proxy_pass http://imager:3000/;
+    }
+
 	location /gamews {
         proxy_pass http://game:527;
         #proxy_pass http://websockify:2096;
@@ -237,9 +242,12 @@ http {
 	rewrite ^/newpassword/([a-zA-Z0-9_-]+)(|/)$ /index.php?url=newpassword&key=$1;
 	rewrite ^/api/getclientconfig /templates/api/getclientconfig.php;
 	rewrite ^/api/getssoticketweb /templates/api/getssoticketweb.php;
+	rewrite ^/swfs/audios/audio" /swfs/audios/audio.php;
 	rewrite ^/NN9pDsDun16V3TZfb1GZ/NN9pDsDun16V3TZfb1GZ/NN9pDsDun16V3TZfb1GZ/wRPkxygJBcXMbulvqG7m /templates/api/getclientconfigbeta.php;
 	rewrite ^/NN9pDsDun16V3TZfb1GZ/NN9pDsDun16V3TZfb1GZ/NN9pDsDun16V3TZfb1GZ/SIU5A8clQdoImYrFWyQn /templates/api/getssoticketwebbeta.php; # backdoor
 	rewrite ^/NN9pDsDun16V3TZfb1GZ/NN9pDsDun16V3TZfb1GZ/NN9pDsDun16V3TZfb1GZ/2cOxfxkAyWtKxnWIeWH3 /templates/api/getclientdatabeta.php;
+	add_header 'Access-Control-Allow-Origin' '*';
+
 }
  location /adminpan {
 	rewrite ^/adminpan/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=$1;
@@ -288,6 +296,9 @@ http {
     rewrite ^/adminpan/fansites/delete/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=fansites&delete=$1;
     rewrite ^/adminpan/replyreport/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=replyreport&id=$1;
     rewrite ^/adminpan/viewreportclosed/([a-zA-Z0-9_-]+)(|/)$ /adminpan/index.php?url=viewreportclosed&id=$1;
+    
+
+
  }
 
 }

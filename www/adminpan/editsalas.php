@@ -37,7 +37,7 @@ admin::CheckRank(19);
                                 admin::UpdateRoomOwner();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditRoomOwner("id"); ?>" name="naam" class="form-control">
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">ID de Sala</label>
                                     <input style="color: black;" type="number" value="<?php echo admin::EditRoomOwner("id"); ?>" name="id" class="form-control" id="exampleInputName1" placeholder="ID del pagina" Readonly>
@@ -57,12 +57,12 @@ admin::CheckRank(19);
                                 <div class="form-group">
                                     <label for="exampleInputPassword4">Status:</label>
                                     <select name="state" class="form-control">
-                                            <option name="state" value="open" <?php echo admin::EditRoomOwner("state")=='open'?'selected':'';?>>Open</option>
-                                            <option name="state" value="locked" <?php echo admin::EditRoomOwner("state")=='locked'?'selected':'';?>>Locked</option>
-                                            <option name="state" value="hide" <?php echo admin::EditRoomOwner("state")=='hide'?'selected':'';?>>Hide</option>
+                                        <option name="state" value="open" <?php echo admin::EditRoomOwner("state") == 'open' ? 'selected' : ''; ?>>Open</option>
+                                        <option name="state" value="locked" <?php echo admin::EditRoomOwner("state") == 'locked' ? 'selected' : ''; ?>>Locked</option>
+                                        <option name="state" value="hide" <?php echo admin::EditRoomOwner("state") == 'hide' ? 'selected' : ''; ?>>Hide</option>
                                     </select>
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditRoomOwner("id"); ?>)
  
 
@@ -82,41 +82,41 @@ admin::CheckRank(19);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    
-					
-                    <div class="table-responsive " >
-                        <table class="table table-hover" >
-                            <tbody>
-                                <tr>
-                                <td>
-                                    <p><b class="text-info">ID de Sala: </b><?php echo admin::EditRoomOwner("id"); ?></p> 
-                                </td>
-                                </tr>
-                                <tr>  
-                                    <td>
-                                        <p><b class="text-warning">Nombre de Sala: </b> <?php echo admin::EditRoomOwner("caption"); ?></p>
-                                    </td>  
-                                </tr>
-                                <tr>  
-                                    <td>
-                                        <p><b class="text-primary">Propietario de Sala: </b> <?php echo admin::EditRoomOwner("owner"); ?></p>
-                                    </td>  
-                                </tr>
-                                <br />
+                    <div class="card">
+                        <div class="card-body">
 
-                            </tbody>
-                        </table>
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-info">ID de Sala: </b><?php echo admin::EditRoomOwner("id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Nombre de Sala: </b> <?php echo admin::EditRoomOwner("caption"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-primary">Propietario de Sala: </b> <?php echo admin::EditRoomOwner("owner"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
                     </div>
+                </div>
 
-                  </div>
-                </div>
-                </div>
-              
-             
+
 
 
 

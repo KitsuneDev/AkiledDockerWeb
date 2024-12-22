@@ -1,91 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <?php
-        include_once "includes/head.php";
-        admin::CheckRank(19);
-    ?>
+<?php
+include_once "includes/head.php";
+admin::CheckRank(19);
+?>
 
 <body>
 
     <?php
-        include_once "includes/navi.php";
-        include_once "includes/header.php";
+    include_once "includes/navi.php";
+    include_once "includes/header.php";
     ?>
 
 
     <div class="main-panel">
         <div class="content-wrapper">
 
-        <?php if (admin::ViewReport("state") == "Cerrado") { ?>
+            <?php if (admin::ViewReport("state") == "Cerrado") { ?>
 
-            <div class="row" style="justify-content: center;">
-                <div class="col-md-6 grid-margin stretch-card">
-                    <div class="card">
-                        <div class="card-body">
+                <div class="row" style="justify-content: center;">
+                    <div class="col-md-6 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
 
-                            <?php
+                                <?php
                                 admin::ViewReport("id");
                                 admin::ViewReplyReport("report_id");
                                 admin::ViewReportNewQuestion("id");
 
                                 $timestamp = date('d-m-Y', admin::ViewReport("time"));
-                            ?>
+                                ?>
 
-                            <input id="icon_prefix" type="hidden" value="<?php echo admin::ViewReport("id"); ?>" name="naam" class="form-control">
+                                <input id="icon_prefix" type="hidden" value="<?php echo admin::ViewReport("id"); ?>" name="naam" class="form-control">
 
-                            <div class="form-group">
-                                <label for="exampleInputName1" style="font-size: 20px;"><b>ID do Report:</b> <?php echo admin::ViewReport("id"); ?></label>
-                            </div>
+                                <div class="form-group">
+                                    <label for="exampleInputName1" style="font-size: 20px;"><b>ID do Report:</b> <?php echo admin::ViewReport("id"); ?></label>
+                                </div>
 
-                            <hr style="border: solid 1px; color: white;">
+                                <hr style="border: solid 1px; color: white;">
 
-                            <div class="form-group">
-                                <label for="exampleInputEmail3"><b>Nome do Report:</b> <?php echo admin::ViewReport("title"); ?></label>
-                            </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail3"><b>Nome do Report:</b> <?php echo admin::ViewReport("title"); ?></label>
+                                </div>
 
-                            <div class="form-group">
-                                <label for="exampleInputPassword4"><b>Categoria de Report:</b></label>
-                                <label for="exampleInputPassword4"><?php echo admin::ViewReport("category"); ?></label>
-                            </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword4"><b>Categoria de Report:</b></label>
+                                    <label for="exampleInputPassword4"><?php echo admin::ViewReport("category"); ?></label>
+                                </div>
 
-                            <div class="form-group">
-                                <label for="exampleInputPassword4"><b>Problema:</b></label><br>
-                                <label for="exampleInputPassword4"><?php echo admin::ViewReport("problem"); ?></label>
-                            </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword4"><b>Problema:</b></label><br>
+                                    <label for="exampleInputPassword4"><?php echo admin::ViewReport("problem"); ?></label>
+                                </div>
 
-                            <?php
+                                <?php
                                 $idpage = $_GET['id'];
                                 $getArticles = $dbh->prepare("SELECT * FROM cms_reports_newquestion WHERE report_id = $idpage");
                                 $getArticles->execute();
-                                    while ($news = $getArticles->fetch()) {
-                            ?>
+                                while ($news = $getArticles->fetch()) {
+                                ?>
 
-                            <div class="form-group">
-                                <label for="exampleInputPassword4"><b>Segunda pergunta:</b></label><br>
-                                <label for="exampleInputPassword4"><?php echo $news["question"]; ?></label>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword4"><b>Segunda pergunta:</b></label><br>
+                                        <label for="exampleInputPassword4"><?php echo $news["question"]; ?></label>
+                                    </div>
+
+                                <?php } ?>
+
+                                <hr style="border: solid 1px; color: white;">
+
+                                <div class="form-group">
+                                    <label for="exampleInputPassword4"><b>Solução:</b></label><br>
+                                    <label for="exampleInputPassword4"><?php echo admin::ViewReplyReport("reply"); ?></label>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail3"><b>Staff do Report:</b> <?php echo admin::ViewReport("staff"); ?></label>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail3"><b>Data do Report:</b> <?php echo $timestamp; ?></label>
+                                </div>
+
                             </div>
-
-                            <?php } ?>
-
-                            <hr style="border: solid 1px; color: white;">
-
-                            <div class="form-group">
-                                <label for="exampleInputPassword4"><b>Solução:</b></label><br>
-                                <label for="exampleInputPassword4"><?php echo admin::ViewReplyReport("reply"); ?></label>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="exampleInputEmail3"><b>Staff do Report:</b> <?php echo admin::ViewReport("staff"); ?></label>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="exampleInputEmail3"><b>Data do Report:</b> <?php echo $timestamp; ?></label>
-                            </div>
-
                         </div>
                     </div>
-                </div>
 
                 <?php } else { ?>
 
@@ -97,18 +97,18 @@
 
                 <?php } ?>
 
-            </div>
+                </div>
 
         </div>
 
-<!-- content-wrapper ends -->
-<!-- partial:partials/_footer.html -->
-<?php
-include_once "includes/footer.php";
-?>
-<!-- container-scroller -->
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <?php
+        include_once "includes/footer.php";
+        ?>
+        <!-- container-scroller -->
 
-<!-- End custom js for this page -->
+        <!-- End custom js for this page -->
 </body>
 
 

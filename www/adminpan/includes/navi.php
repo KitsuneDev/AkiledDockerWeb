@@ -10,7 +10,7 @@
         <div class="profile-desc">
           <div class="profile-pic">
             <div class="count-indicator">
-              <img class="img-xs rounded-circle" src="<?php echo $config['look']; ?><?php echo User::userData('look'); ?>&direction=3&head_direction=3&gesture=none&action=none&size=n&headonly=1" alt="">
+              <img class="img-xs rounded-circle" src="<?php echo $config['lookUrl']; ?><?php echo User::userData('look'); ?>&direction=3&head_direction=3&gesture=none&action=none&size=n&headonly=1" alt="">
               <span class="count bg-success"></span>
             </div>
             <div class="profile-name">

@@ -37,8 +37,8 @@ admin::CheckRank(13);
                                 admin::UpdateMueble();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditMueble("id"); ?>" name="naam" class="form-control">
-								
-								<div class="form-group">
+
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Nome do Item</label>
                                     <input style="color: black;" type="text" value="<?php echo admin::EditMueble("catalog_name"); ?>" name="catalog_name" class="form-control" Readonly>
                                 </div>
@@ -46,11 +46,11 @@ admin::CheckRank(13);
                                     <label for="exampleInputName1">ID da Pàgina</label>
                                     <input type="number" value="<?php echo admin::EditMueble("page_id"); ?>" name="page_id" class="form-control" id="exampleInputName1" placeholder="ID del pagina">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputPassword4">Creditos</label>
                                     <input type="number" value="<?php echo admin::EditMueble("cost_credits"); ?>" name="cost_credits" class="form-control" autocomplete="off">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputPassword4">Duckets</label>
                                     <input type="number" value="<?php echo admin::EditMueble("cost_pixels"); ?>" name="cost_pixels" class="form-control" autocomplete="off">
                                 </div>
@@ -58,15 +58,15 @@ admin::CheckRank(13);
                                     <label for="exampleInputPassword4">Esmeraldas</label>
                                     <input type="number" value="<?php echo admin::EditMueble("cost_diamonds"); ?>" name="cost_diamonds" class="form-control" autocomplete="off">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputPassword4">La cantidad</label>
                                     <input type="number" value="<?php echo admin::EditMueble("amount"); ?>" name="amount" class="form-control" autocomplete="off">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputPassword4">Número de lotes (si es raro limitado)</label>
                                     <input type="number" value="<?php echo admin::EditMueble("limited_stack"); ?>" name="limited_stack" class="form-control" autocomplete="off">
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditMueble("catalog_name"); ?>)
  
                                 ID de página: <?php echo admin::EditMueble("page_id"); ?> --- :bookmark_tabs:
@@ -88,37 +88,52 @@ admin::CheckRank(13);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Nombre del Mueble: <?php echo admin::EditMueble("catalog_name"); ?> </h4>
-                    </p>
-					
-                    <div class="table-responsive " >
-                      <table class="table table-hover" >
-                      <tbody>
-                      <tr>
-                           <td>	<p > <b class="text-info">ID de página: </b><?php echo admin::EditMueble("page_id"); ?></p> </td></tr>
-						   <tr>  <td><p><b class="text-warning">Creditos:</b> <?php echo admin::EditMueble("cost_credits"); ?></p> </td>  </tr>
-						   <tr>  <td><p><b class="text-danger">Duckets:</b> <?php echo admin::EditMueble("cost_pixels"); ?></p> </td>  </tr>
-                        <tr>  <td><p><b class="text-success">Esmeraldas:</b> <?php echo admin::EditMueble("cost_diamonds"); ?></p> </td>  </tr>
-						<br />
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Nombre del Mueble: <?php echo admin::EditMueble("catalog_name"); ?> </h4>
+                            </p>
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p> <b class="text-info">ID de página: </b><?php echo admin::EditMueble("page_id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Creditos:</b> <?php echo admin::EditMueble("cost_credits"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-danger">Duckets:</b> <?php echo admin::EditMueble("cost_pixels"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-success">Esmeraldas:</b> <?php echo admin::EditMueble("cost_diamonds"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
 
 
-                      
-                      
-                        
-                        </tbody>
-                      </table>
-                        
-                        
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

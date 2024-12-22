@@ -143,7 +143,7 @@ admin::CheckRank(19);
                             <h4 class="card-title"><?= $lang["HkSettings8"]; ?> </h4>
                             <form class="forms-sample" name="mygallery" action="" method="POST">
                                 <div class="form-group">
-                                    
+
                                     <label for="exampleSelectGender">Mantenimiento</label>
                                     <select name="maintenance" class="form-control">
                                         <option value="false" <?php if ($config['maintenance'] == "false") {
@@ -159,11 +159,11 @@ admin::CheckRank(19);
 
                                 <div class="form-group">
                                     <label for="exampleInputPassword4"><?= $lang["HkSettings11"]; ?></label>
-										<input type="text" value="<?= $config['maintenancekMinimumRankLogin']; ?>" name="rank_maintenance" class="form-control" autocomplete="off" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-									</div>
+                                    <input type="text" value="<?= $config['maintenancekMinimumRankLogin']; ?>" name="rank_maintenance" class="form-control" autocomplete="off" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+                                </div>
 
-                                <button  name="mantenimiento" type="submit" class="btn btn-primary mr-2">Guardar</button>
-                            
+                                <button name="mantenimiento" type="submit" class="btn btn-primary mr-2">Guardar</button>
+
                             </form>
                         </div>
                     </div>

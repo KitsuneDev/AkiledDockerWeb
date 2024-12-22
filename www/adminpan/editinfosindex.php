@@ -37,7 +37,7 @@ admin::CheckRank(19);
                                 admin::UpdateInfosIndex();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditInfosIndex("id"); ?>" name="naam" class="form-control">
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">ID de InfoIndex</label>
                                     <input style="color: black;" type="number" value="<?php echo admin::EditInfosIndex("id"); ?>" name="id" class="form-control" id="exampleInputName1" placeholder="ID del pagina" Readonly>
@@ -54,7 +54,7 @@ admin::CheckRank(19);
                                     <label for="exampleInputPassword4">Imagem:</label>
                                     <input type="text" value="<?php echo admin::EditInfosIndex("image"); ?>" name="image" class="form-control" autocomplete="off">
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditInfosIndex("id"); ?>)
  
 
@@ -74,39 +74,39 @@ admin::CheckRank(19);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    
-					
-                    <div class="table-responsive " >
-                        <table class="table table-hover" >
-                        <img style="width: 100%;" src="<?php echo admin::EditInfosIndex("image"); ?>">
-                            <tbody>
-                                <tr>
-                                <td>
-                                    <p><b class="text-info">ID de InfoIndex: </b><?php echo admin::EditInfosIndex("id"); ?></p> 
-                                </td>
-                                </tr>
-                                <tr>  
-                                    <td>
-                                        <p><b class="text-warning">Nombre de InfoIndex: </b> <?php echo admin::EditInfosIndex("title"); ?></p>
-                                    </td>  
-                                </tr>
-                                <tr>  
-                                    <td style="white-space: inherit; line-height: 1.6;">
-                                        <p><b class="text-primary">Descripción de InfoIndex: </b> <?php echo admin::EditInfosIndex("information"); ?></p>
-                                    </td>  
-                                </tr>
-                                <br />
+                    <div class="card">
+                        <div class="card-body">
 
-                            </tbody>
-                        </table>
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    <img style="width: 100%;" src="<?php echo admin::EditInfosIndex("image"); ?>">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-info">ID de InfoIndex: </b><?php echo admin::EditInfosIndex("id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Nombre de InfoIndex: </b> <?php echo admin::EditInfosIndex("title"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="white-space: inherit; line-height: 1.6;">
+                                                <p><b class="text-primary">Descripción de InfoIndex: </b> <?php echo admin::EditInfosIndex("information"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
                     </div>
-
-                  </div>
-                </div>
                 </div>
             </div>
         </div>

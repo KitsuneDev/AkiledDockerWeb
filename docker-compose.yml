@@ -37,6 +37,12 @@ services:
       - 6379:6379
     volumes:
       - ./data/Redis:/data
+  imager:
+    build: ./imager
+    env_file:
+      - ./imager/.env.new
+    volumes:
+      - ./assets:/app/assets
   game:
     build: ./gameEmu
     env_file:
@@ -47,7 +53,7 @@ services:
       - 30000:30000
     volumes:
       - ./gameEmu/templates/configuration.ini.template:/app/Settings/configuration.ini.template:ro
-      - ./logs/game:/app/logs
+      - ./logs/game:/app/Logs
     command: ["dockerize",
               "-template", "/app/Settings/configuration.ini.template:/app/Settings/configuration.ini",
               "dotnet", "AkiledEmulator.dll"]

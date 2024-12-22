@@ -19,53 +19,53 @@ admin::CheckRank(19);
 
     <div class="main-panel">
         <div class="content-wrapper">
-        <div class="row">
+            <div class="row">
                 <div class="col-md-12 grid-margin stretch-card">
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Vista de Vacantes</h4>
                             <p class="card-description">Ver todas las respuestas de trabajo</p>
-                          <!--   <a href="/adminpan/addcatalogsection" class="btn active" role="button" aria-pressed="true" style="background-color:#4272d7;color:#FFFFFF;">Añadir sección</a>-->
+                            <!--   <a href="/adminpan/addcatalogsection" class="btn active" role="button" aria-pressed="true" style="background-color:#4272d7;color:#FFFFFF;">Añadir sección</a>-->
 
                             <?php admin::DeleteCatalogSection(); ?>
                             <?php if (User::userData('rank') > '18') { ?>
                                 <center>
-                                <div class="table-responsive ">
-                                    <table class="table  table-condensed" id="tableprueba" style="">
-                                        <thead>
-                                            <tr>
-                                                <th>ID</th>
-                                                <th>Username</th>
-                                                <th>Años</th>
-                                                <th>Visualización</th>
-                                            </tr>
-
-                                        </thead>
-
-                                        <tbody>
-                                            <?php
-                                            $getpages = $dbh->prepare("SELECT * FROM staffapplication");
-                                            $getpages->execute();
-
-                                            while ($pages = $getpages->fetch()) {
-                                            ?>
-
-                                                <tr style="color:#6c7293; background:#191c24">
-                                                    <td> <?php echo $pages["id"]; ?></td>
-
-                                                    <td><img src="<?php echo $config["pathswf"]; ?>/c_images/album1584/<?php echo $pages["badge_code"]; ?>.gif" /> <?php echo $pages["username"]; ?></td>
-                                                    <td><?php echo $pages["age"]; ?></td>
-                                                    <td>
-                                                        <center><a type="button" class="btn btn-info" href="<?php echo $config['hotelUrl']; ?>/adminpan/vervacantes/<?php echo $pages["id"]; ?>">Ver</center></a>
-                                                    </td>
+                                    <div class="table-responsive ">
+                                        <table class="table  table-condensed" id="tableprueba" style="">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Username</th>
+                                                    <th>Años</th>
+                                                    <th>Visualización</th>
                                                 </tr>
-                                            <?php } ?>
+
+                                            </thead>
+
+                                            <tbody>
+                                                <?php
+                                                $getpages = $dbh->prepare("SELECT * FROM staffapplication");
+                                                $getpages->execute();
+
+                                                while ($pages = $getpages->fetch()) {
+                                                ?>
+
+                                                    <tr style="color:#6c7293; background:#191c24">
+                                                        <td> <?php echo $pages["id"]; ?></td>
+
+                                                        <td><img src="<?php echo $config["pathswf"]; ?>/c_images/album1584/<?php echo $pages["badge_code"]; ?>.gif" /> <?php echo $pages["username"]; ?></td>
+                                                        <td><?php echo $pages["age"]; ?></td>
+                                                        <td>
+                                                            <center><a type="button" class="btn btn-info" href="<?php echo $config['hotelUrl']; ?>/adminpan/vervacantes/<?php echo $pages["id"]; ?>">Ver</center></a>
+                                                        </td>
+                                                    </tr>
+                                                <?php } ?>
 
 
 
 
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
                                 </center>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ admin::CheckRank(19);
                 </div>
             </div>
         </div>
-        
+
 
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->

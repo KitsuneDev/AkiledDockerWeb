@@ -37,7 +37,7 @@ admin::CheckRank(19);
                                 admin::UpdateComandos();
                                 ?>
                                 <input id="icon_prefix" type="hidden" value="<?php echo admin::EditComandos("id"); ?>" name="naam" class="form-control">
-								
+
                                 <div class="form-group">
                                     <label for="exampleInputName1">ID de Comando</label>
                                     <input style="color: black;" type="number" value="<?php echo admin::EditComandos("id"); ?>" name="id" class="form-control" id="exampleInputName1" placeholder="ID del pagina" Readonly>
@@ -50,23 +50,23 @@ admin::CheckRank(19);
                                     <label for="exampleInputPassword4">MinRank de Rango:</label>
                                     <input type="text" value="<?php echo admin::EditComandos("minrank"); ?>" name="minrank" class="form-control" autocomplete="off">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Descripción en Francés:</label>
                                     <input type="text" value="<?php echo admin::EditComandos("description_fr"); ?>" name="description_fr" class="form-control">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Descripción en Inglés:</label>
                                     <input type="text" value="<?php echo admin::EditComandos("description_en"); ?>" name="description_en" class="form-control">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Descripción en Portugués:</label>
                                     <input type="text" value="<?php echo admin::EditComandos("description_br"); ?>" name="description_br" class="form-control">
                                 </div>
-								<div class="form-group">
+                                <div class="form-group">
                                     <label for="exampleInputEmail3">Descripción en Español:</label>
                                     <input type="text" value="<?php echo admin::EditComandos("description_es"); ?>" name="description_es" class="form-control">
                                 </div>
-                                
+
                                 <input type="hidden" id="content" value=":warning: Ha editado informacion de (<?php echo admin::EditComandos("id"); ?>)
  
 
@@ -86,35 +86,46 @@ admin::CheckRank(19);
 
 
 
-              
+
                 <div class="col-lg-5 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-					
-                    <div class="table-responsive " >
-                      <table class="table table-hover" >
-					  Separe el nombre de los comandos con una coma, ejemplo: pickall,recoger
-					  <br>
-                      <tbody>
-                      <tr>
-                           <td>	<p > <b class="text-info">ID del Comando: </b><?php echo admin::EditComandos("id"); ?></p> </td></tr>
-                        <tr>  <td><p><b class="text-warning">Nombre de Comando:</b> <?php echo admin::EditComandos("input"); ?></p> </td>  </tr>
-						<tr>  <td><p><b class="text-primary">MinRank de Comando:</b> <?php echo admin::EditComandos("minrank"); ?></p> </td>  </tr>
-						<br />
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div class="table-responsive ">
+                                <table class="table table-hover">
+                                    Separe el nombre de los comandos con una coma, ejemplo: pickall,recoger
+                                    <br>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p> <b class="text-info">ID del Comando: </b><?php echo admin::EditComandos("id"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-warning">Nombre de Comando:</b> <?php echo admin::EditComandos("input"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p><b class="text-primary">MinRank de Comando:</b> <?php echo admin::EditComandos("minrank"); ?></p>
+                                            </td>
+                                        </tr>
+                                        <br />
 
 
-                      
-                      
-                        
-                        </tbody>
-                      </table>
-                        
+
+
+
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                </div>
-              
-             
+
+
 
 
 

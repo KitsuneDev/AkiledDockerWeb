@@ -34,22 +34,24 @@ admin::CheckRank(10);
                                         </header>
                                         <div class="panel-body">
                                             <div class="form-group">
-                                                <label class="col-sm-2 col-sm-2 control-label"><?= $lang["HkNavLogsid"] ?></label>
+                                                <label
+                                                    class="col-sm-2 col-sm-2 control-label"><?= $lang["HkNavLogsid"] ?></label>
                                                 <div class="col-sm-10">
                                                     <input type="text" name="users" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="panel-body">
                                                 <div class="form-group">
-                                                    <label class="col-sm-2 col-sm-2 control-label">Nombre del usuario</label>
+                                                    <label class="col-sm-2 col-sm-2 control-label">Nombre del
+                                                        usuario</label>
                                                     <div class="col-sm-10">
                                                         <input type="text" name="comando" class="form-control">
                                                     </div>
                                                 </div>
-                                                <button style=
-                                                "width: 200px; 
+                                                <button style="width: 200px; 
                                                 float: left;
-                                                margin-left: 12px;" name="logshotel" type="submit" class="btn btn-primary mr-2">Buscar</button>
+                                                margin-left: 12px;" name="logshotel" type="submit"
+                                                    class="btn btn-primary mr-2">Buscar</button>
                                             </div>
                                     </section>
                         </div>
@@ -60,16 +62,16 @@ admin::CheckRank(10);
 
 
                         <div class="table-responsive" style=" max-height: 350px; overflow-y: scroll">
-                                    <table class="table table-hover">
-                            <b> <strong>
-                                    <tr>
-                                        <td><b><?= $lang["HkLogsTitle2"]; ?></b></td>
-                                        <td><b>Antiguo</b></td>
-                                        <td><b>Nuevo</b></td>
-                                        <td><b><?= $lang["HkLogsTitle4"]; ?></b></td>
-                                    </tr>
-                                </strong></b>
-                            <?php
+                            <table class="table table-hover">
+                                <b> <strong>
+                                        <tr>
+                                            <td><b><?= $lang["HkLogsTitle2"]; ?></b></td>
+                                            <td><b>Antiguo</b></td>
+                                            <td><b>Nuevo</b></td>
+                                            <td><b><?= $lang["HkLogsTitle4"]; ?></b></td>
+                                        </tr>
+                                    </strong></b>
+                                <?php
 
 
 
@@ -91,13 +93,13 @@ admin::CheckRank(10);
                             }
                             ?>
 
-                    </div>
-                    </table>
+                        </div>
+                        </table>
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!-- content-wrapper ends -->
     <!-- partial:partials/_footer.html -->
